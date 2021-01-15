@@ -2,10 +2,21 @@
 package net.mcreator.waffles.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.common.IPlantable;
 
 import net.minecraft.world.storage.loot.LootContext;
+import net.minecraft.world.gen.placement.Placement;
+import net.minecraft.world.gen.placement.CountRangeConfig;
+import net.minecraft.world.gen.feature.OreFeatureConfig;
+import net.minecraft.world.gen.feature.OreFeature;
+import net.minecraft.world.gen.GenerationStage;
+import net.minecraft.world.gen.ChunkGenerator;
+import net.minecraft.world.dimension.DimensionType;
+import net.minecraft.world.biome.Biome;
+import net.minecraft.world.IWorld;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Direction;
@@ -20,6 +31,7 @@ import net.minecraft.block.Block;
 
 import net.mcreator.waffles.WafflesModElements;
 
+import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
@@ -60,6 +72,28 @@ public class BungaloLogBlock extends WafflesModElements.ModElement {
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, 1));
+		}
+	}
+	@Override
+	public void init(FMLCommonSetupEvent event) {
+		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
+			biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, new OreFeature(OreFeatureConfig::deserialize) {
+				@Override
+				public boolean place(IWorld world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
+					DimensionType dimensionType = world.getDimension().getType();
+					boolean dimensionCriteria = false;
+					if (dimensionType == DimensionType.THE_END)
+						dimensionCriteria = true;
+					if (!dimensionCriteria)
+						return false;
+					return super.place(world, generator, rand, pos, config);
+				}
+			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("bungalo_log", "bungalo_log", blockAt -> {
+				boolean blockCriteria = false;
+				if (blockAt.getBlock() == BungaloLeavesBlock.block.getDefaultState().getBlock())
+					blockCriteria = true;
+				return blockCriteria;
+			}), block.getDefaultState(), 16)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(10, 0, 0, 64))));
 		}
 	}
 }
