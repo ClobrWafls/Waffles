@@ -615,8 +615,8 @@
   "language_map": {
     "en_us": {
       "biome.waffles.bobo": "Bobo",
-      "item.waffles.bungalo_armor_leggings": "Bungalo Leggings",
       "item.waffles.bungalo_land": "Bungalo Land Portal Igniter",
+      "item.waffles.bungalo_armor_leggings": "Bungalo Leggings",
       "advancements.best_wood.title": "Best Wood",
       "block.waffles.bungalo_wood": "Bungalo Wood",
       "entity.waffles.bungaboo": "Bungaboo",
