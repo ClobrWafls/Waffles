@@ -149,7 +149,7 @@
       "name": "BungaloIngut",
       "type": "item",
       "sortid": 18,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "bungalo_ingut"
@@ -167,7 +167,7 @@
       "name": "BungaloShovel",
       "type": "tool",
       "sortid": 20,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "bungalo_shovel"
@@ -185,7 +185,7 @@
       "name": "BungaloHoe",
       "type": "tool",
       "sortid": 21,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "bungalo_hoe"
@@ -212,7 +212,7 @@
       "name": "BungaloPickaxe",
       "type": "tool",
       "sortid": 17,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "bungalo_pickaxe"
@@ -230,7 +230,7 @@
       "name": "BungaloSword",
       "type": "tool",
       "sortid": 19,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "bungalo_sword"
@@ -258,14 +258,19 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.waffles.bungalo_planks": "Bungalo Planks",
       "block.waffles.bungalo_fence_gate": "Bungalo Fence Gate",
+      "block.waffles.bungalo_planks": "Bungalo Planks",
       "block.waffles.bungalo_fence": "Bungalo Fence",
       "block.waffles.bungalo_leaves": "Bungalo Leaves",
-      "block.waffles.bungalo_stairs": "Bungalo Stairs",
       "block.waffles.bungalo_wood": "Bungalo Wood",
+      "item.waffles.bungalo_shovel": "Bungalo Shovel",
+      "block.waffles.bungalo_log": "Bungalo Log",
+      "item.waffles.bungalo_sword": "Bungalo Sword",
+      "block.waffles.bungalo_stairs": "Bungalo Stairs",
       "block.waffles.bungalo_slab": "Bungalo Slab",
-      "block.waffles.bungalo_log": "Bungalo Log"
+      "item.waffles.bungalo_pickaxe": "Bungalo Pickaxe",
+      "item.waffles.bungalo_hoe": "Bungalo Hoe",
+      "item.waffles.bungalo_ingut": "Bungalo Ingut"
     }
   },
   "workspaceSettings": {

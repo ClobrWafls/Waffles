@@ -1,10 +1,15 @@
 {
-  "block.waffles.bungalo_planks": "Bungalo Planks",
   "block.waffles.bungalo_fence_gate": "Bungalo Fence Gate",
+  "block.waffles.bungalo_planks": "Bungalo Planks",
   "block.waffles.bungalo_fence": "Bungalo Fence",
   "block.waffles.bungalo_leaves": "Bungalo Leaves",
-  "block.waffles.bungalo_stairs": "Bungalo Stairs",
   "block.waffles.bungalo_wood": "Bungalo Wood",
+  "item.waffles.bungalo_shovel": "Bungalo Shovel",
+  "block.waffles.bungalo_log": "Bungalo Log",
+  "item.waffles.bungalo_sword": "Bungalo Sword",
+  "block.waffles.bungalo_stairs": "Bungalo Stairs",
   "block.waffles.bungalo_slab": "Bungalo Slab",
-  "block.waffles.bungalo_log": "Bungalo Log"
+  "item.waffles.bungalo_pickaxe": "Bungalo Pickaxe",
+  "item.waffles.bungalo_hoe": "Bungalo Hoe",
+  "item.waffles.bungalo_ingut": "Bungalo Ingut"
 }
