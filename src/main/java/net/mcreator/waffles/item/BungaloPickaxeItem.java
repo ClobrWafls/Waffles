@@ -25,11 +25,11 @@ public class BungaloPickaxeItem extends WafflesModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 250;
+				return 0;
 			}
 
 			public float getEfficiency() {
-				return 6f;
+				return 4f;
 			}
 
 			public float getAttackDamage() {
@@ -37,11 +37,11 @@ public class BungaloPickaxeItem extends WafflesModElements.ModElement {
 			}
 
 			public int getHarvestLevel() {
-				return 2;
+				return 120;
 			}
 
 			public int getEnchantability() {
-				return 14;
+				return 100;
 			}
 
 			public Ingredient getRepairMaterial() {

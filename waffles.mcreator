@@ -240,8 +240,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.waffles.bungalo_fence_gate": "Bungalo Fence Gate",
       "block.waffles.bungalo_planks": "Bungalo Planks",
+      "block.waffles.bungalo_fence_gate": "Bungalo Fence Gate",
       "block.waffles.bungalo_fence": "Bungalo Fence",
       "block.waffles.bungalo_leaves": "Bungalo Leaves",
       "block.waffles.bungalo_wood": "Bungalo Wood",

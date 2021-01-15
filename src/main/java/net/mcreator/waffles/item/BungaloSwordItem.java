@@ -33,7 +33,7 @@ public class BungaloSwordItem extends WafflesModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 0f;
+				return 6f;
 			}
 
 			public int getHarvestLevel() {

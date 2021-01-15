@@ -2,42 +2,16 @@
   "_fv": 13,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Crafting",
-    "xpReward": 0.0,
+    "recipeType": "Campfire cooking",
+    "xpReward": 1.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
-    "recipeSlots": [
-      {
-        "value": "CUSTOM:BungaloPlanks"
-      },
-      {
-        "value": "CUSTOM:BungaloPlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      }
-    ],
-    "recipeReturnStack": {
+    "campfireCookingInputStack": {
+      "value": "CUSTOM:BungaloLeaves"
+    },
+    "campfireCookingReturnStack": {
       "value": "CUSTOM:BungaloHoe"
     },
     "name": "bungalo_hoe_recipe",

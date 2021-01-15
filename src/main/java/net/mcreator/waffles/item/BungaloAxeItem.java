@@ -25,29 +25,29 @@ public class BungaloAxeItem extends WafflesModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new AxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 250;
+				return 0;
 			}
 
 			public float getEfficiency() {
-				return 6f;
+				return 4f;
 			}
 
 			public float getAttackDamage() {
-				return 0f;
+				return 13f;
 			}
 
 			public int getHarvestLevel() {
-				return 2;
+				return 100000;
 			}
 
 			public int getEnchantability() {
-				return 14;
+				return 100;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(BungaloPlanksBlock.block, (int) (1)));
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, 0f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("bungalo_axe"));
 	}
 }
