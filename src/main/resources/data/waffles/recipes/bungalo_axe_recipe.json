@@ -1,30 +1,9 @@
 {
   "group": "waffles",
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "01",
-    "23",
-    " 5"
-  ],
-  "key": {
-    "0": {
-      "item": "waffles:bungalo_planks"
-    },
-    "1": {
-      "item": "waffles:bungalo_planks"
-    },
-    "2": {
-      "item": "waffles:bungalo_planks"
-    },
-    "3": {
-      "item": "minecraft:stick"
-    },
-    "5": {
-      "item": "minecraft:stick"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "waffles:bungalo_wood"
   },
-  "result": {
-    "item": "waffles:bungalo_axe",
-    "count": 1
-  }
+  "result": "waffles:bungalo_axe"
 }
