@@ -278,6 +278,66 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bungalo_juice"
+    },
+    {
+      "name": "BungaloArmor",
+      "type": "armor",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "BungaloArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_armor_helmet_recipe"
+    },
+    {
+      "name": "BungaloArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_armor_body_recipe"
+    },
+    {
+      "name": "BungaloArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_armor_leggings_recipe"
+    },
+    {
+      "name": "BungaloArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_armor_boots_recipe"
+    },
+    {
+      "name": "Bungalo",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo"
     }
   ],
   "variable_elements": [],
@@ -287,13 +347,18 @@
       "block.waffles.bungalo_planks": "Bungalo Planks",
       "block.waffles.bungalo_fence_gate": "Bungalo Fence Gate",
       "block.waffles.bungalo_fence": "Bungalo Fence",
+      "item.waffles.bungalo_armor_leggings": "Bungalo Leggings",
       "block.waffles.bungalo_leaves": "Bungalo Leaves",
-      "block.waffles.bungalo_stairs": "Bungalo Stairs",
       "block.waffles.bungalo_wood": "Bungalo Wood",
+      "block.waffles.bungalo_log": "Bungalo Log",
+      "block.waffles.bungalo": "Bungalo",
+      "item.waffles.bungalo_armor_chestplate": "Bungalo Chestplate",
+      "block.waffles.bungalo_stairs": "Bungalo Stairs",
       "block.waffles.bungalo_slab": "Bungalo Slab",
+      "item.waffles.bungalo_armor_boots": "Bungalo Boots",
       "item.waffles.bungalo_juice_bucket": "BungaloJuice Bucket",
       "fluid.bungalo_juice": "BungaloJuice",
-      "block.waffles.bungalo_log": "Bungalo Log"
+      "item.waffles.bungalo_armor_helmet": "Bungalo Helmet"
     }
   },
   "workspaceSettings": {

@@ -9,12 +9,12 @@
     "group": "",
     "recipeShapeless": false,
     "stoneCuttingInputStack": {
-      "value": "CUSTOM:BungaloIngut"
+      "value": "CUSTOM:Bungalo"
     },
     "stoneCuttingReturnStack": {
-      "value": "CUSTOM:BungaloPickaxe"
+      "value": "CUSTOM:BungaloArmor.boots"
     },
-    "name": "bungalo_pickaxe_recipe",
+    "name": "bungalo_armor_boots_recipe",
     "namespace": "mod"
   }
 }
