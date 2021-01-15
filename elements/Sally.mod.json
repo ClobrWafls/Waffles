@@ -30,9 +30,6 @@
     "inventoryStackSize": 64,
     "onRightClickedInAir": {
       "name": "SallyRightClickedInAir"
-    },
-    "onItemInInventoryTick": {
-      "name": "SallyItemInInventoryTick"
     }
   }
 }

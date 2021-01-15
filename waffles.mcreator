@@ -610,23 +610,6 @@
       "registry_name": "bungaboo"
     },
     {
-      "name": "SallyItemInInventoryTick",
-      "type": "procedure",
-      "sortid": 47,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sally_item_in_inventory_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "Sally",
       "type": "item",
       "sortid": 47,
@@ -662,8 +645,8 @@
   "language_map": {
     "en_us": {
       "biome.waffles.bobo": "Bobo",
-      "item.waffles.bungalo_land": "Bungalo Land Portal Igniter",
       "item.waffles.bungalo_armor_leggings": "Bungalo Leggings",
+      "item.waffles.bungalo_land": "Bungalo Land Portal Igniter",
       "advancements.best_wood.title": "Best Wood",
       "block.waffles.bungalo_wood": "Bungalo Wood",
       "entity.waffles.bungaboo": "Bungaboo",

@@ -11,11 +11,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.Entity;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.waffles.procedures.SallyRightClickedInAirProcedure;
-import net.mcreator.waffles.procedures.SallyItemInInventoryTickProcedure;
 import net.mcreator.waffles.WafflesModElements;
 
 import java.util.Map;
@@ -68,19 +66,6 @@ public class SallyItem extends WafflesModElements.ModElement {
 				SallyRightClickedInAirProcedure.executeProcedure($_dependencies);
 			}
 			return ar;
-		}
-
-		@Override
-		public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
-			super.inventoryTick(itemstack, world, entity, slot, selected);
-			double x = entity.getPosX();
-			double y = entity.getPosY();
-			double z = entity.getPosZ();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				SallyItemInInventoryTickProcedure.executeProcedure($_dependencies);
-			}
 		}
 	}
 }
