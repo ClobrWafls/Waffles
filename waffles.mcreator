@@ -1,23 +1,10 @@
 {
   "id_map": {},
-  "mod_elements": [
-    {
-      "name": "Bob",
-      "type": "achievement",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bob"
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "advancements.bob.descr": "moo",
-      "advancements.bob.title": "Bob"
-    }
+    "en_us": {}
   },
   "workspaceSettings": {
     "modid": "waffles",
