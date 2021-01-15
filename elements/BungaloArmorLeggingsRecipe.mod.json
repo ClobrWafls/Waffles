@@ -9,10 +9,10 @@
     "group": "",
     "recipeShapeless": false,
     "stoneCuttingInputStack": {
-      "value": "CUSTOM:BungaloArmor.legs"
+      "value": "CUSTOM:Bungalo"
     },
     "stoneCuttingReturnStack": {
-      "value": "CUSTOM:Bungalo"
+      "value": "CUSTOM:BungaloArmor.legs"
     },
     "name": "bungalo_armor_leggings_recipe",
     "namespace": "mod"
