@@ -1,0 +1,13 @@
+{
+  "group": "waffles",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:bungalo_log"
+    }
+  ],
+  "result": {
+    "item": "waffles:bungalo_planks",
+    "count": 4
+  }
+}

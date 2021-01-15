@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "waffles:block/bungalo_slab"
+    },
+    "type=top": {
+      "model": "waffles:block/bungalo_slab_top"
+    },
+    "type=double": {
+      "model": "waffles:block/bungalo_slab_full"
+    }
+  }
+}

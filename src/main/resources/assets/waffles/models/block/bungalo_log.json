@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "waffles:blocks/bungalo_log_top",
+    "up": "waffles:blocks/bungalo_log_top",
+    "north": "waffles:blocks/bungalo_log_side",
+    "east": "waffles:blocks/bungalo_log_side",
+    "south": "waffles:blocks/bungalo_log_side",
+    "west": "waffles:blocks/bungalo_log_side",
+    "particle": "waffles:blocks/bungalo_log_top"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "waffles:blocks/bungalo_planks",
+    "top": "waffles:blocks/bungalo_planks",
+    "side": "waffles:blocks/bungalo_planks"
+  }
+}

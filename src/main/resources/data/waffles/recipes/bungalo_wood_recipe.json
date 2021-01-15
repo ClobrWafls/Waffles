@@ -1,0 +1,26 @@
+{
+  "group": "waffles",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "waffles:bungalo_log"
+    },
+    "1": {
+      "item": "waffles:bungalo_log"
+    },
+    "2": {
+      "item": "waffles:bungalo_log"
+    },
+    "3": {
+      "item": "waffles:bungalo_log"
+    }
+  },
+  "result": {
+    "item": "waffles:bungalo_wood",
+    "count": 3
+  }
+}

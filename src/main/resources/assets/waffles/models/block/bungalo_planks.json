@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "waffles:blocks/bungalo_planks",
+    "particle": "waffles:blocks/bungalo_planks"
+  }
+}

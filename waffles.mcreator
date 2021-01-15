@@ -1,10 +1,164 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "BungaloWood",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_wood"
+    },
+    {
+      "name": "BungaloLog",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_log"
+    },
+    {
+      "name": "BungaloPlanks",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_planks"
+    },
+    {
+      "name": "BungaloLeaves",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_leaves"
+    },
+    {
+      "name": "BungaloStairs",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_stairs"
+    },
+    {
+      "name": "BungaloSlab",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_slab"
+    },
+    {
+      "name": "BungaloFence",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_fence"
+    },
+    {
+      "name": "BungaloFenceGate",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_fence_gate"
+    },
+    {
+      "name": "BungaloItemsTag",
+      "type": "tag",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_items_tag"
+    },
+    {
+      "name": "BungaloWoodRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_wood_recipe"
+    },
+    {
+      "name": "BungaloPlanksRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_planks_recipe"
+    },
+    {
+      "name": "BungaloStairsRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_stairs_recipe"
+    },
+    {
+      "name": "BungaloSlabRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_slab_recipe"
+    },
+    {
+      "name": "BungaloFenceRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_fence_recipe"
+    },
+    {
+      "name": "BungaloFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_fence_gate_recipe"
+    },
+    {
+      "name": "BungaloStickRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_stick_recipe"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.waffles.bungalo_planks": "Bungalo Planks",
+      "block.waffles.bungalo_fence_gate": "Bungalo Fence Gate",
+      "block.waffles.bungalo_fence": "Bungalo Fence",
+      "block.waffles.bungalo_leaves": "Bungalo Leaves",
+      "block.waffles.bungalo_stairs": "Bungalo Stairs",
+      "block.waffles.bungalo_wood": "Bungalo Wood",
+      "block.waffles.bungalo_slab": "Bungalo Slab",
+      "block.waffles.bungalo_log": "Bungalo Log"
+    }
   },
   "workspaceSettings": {
     "modid": "waffles",

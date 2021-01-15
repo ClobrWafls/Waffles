@@ -1,0 +1,32 @@
+{
+  "group": "waffles",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "waffles:bungalo_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "waffles:bungalo_planks"
+    },
+    "3": {
+      "item": "waffles:bungalo_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "waffles:bungalo_planks"
+    }
+  },
+  "result": {
+    "item": "waffles:bungalo_fence",
+    "count": 3
+  }
+}
