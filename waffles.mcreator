@@ -574,15 +574,6 @@
       "registry_name": "bungofruitrecipy"
     },
     {
-      "name": "Bob",
-      "type": "recipe",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bob"
-    },
-    {
       "name": "Bobo",
       "type": "biome",
       "sortid": 40,
@@ -638,6 +629,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "Moo",
+      "type": "function",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moo"
     }
   ],
   "variable_elements": [],
