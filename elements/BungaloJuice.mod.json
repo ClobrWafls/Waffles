@@ -1,0 +1,26 @@
+{
+  "_fv": 13,
+  "_type": "fluid",
+  "definition": {
+    "name": "BungaloJuice",
+    "textureStill": "bungalo_planks",
+    "textureFlowing": "bungalo_log_top",
+    "luminosity": 1,
+    "density": 1000,
+    "viscosity": 1500,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "frequencyOnChunks": 4,
+    "spawnWorldTypes": [
+      "End"
+    ],
+    "restrictionBiomes": [],
+    "onEntityCollides": {
+      "name": "BungaloJuiceMobplayerCollidesBlock"
+    }
+  }
+}

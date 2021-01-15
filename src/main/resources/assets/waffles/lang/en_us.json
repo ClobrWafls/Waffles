@@ -6,5 +6,7 @@
   "block.waffles.bungalo_stairs": "Bungalo Stairs",
   "block.waffles.bungalo_wood": "Bungalo Wood",
   "block.waffles.bungalo_slab": "Bungalo Slab",
+  "item.waffles.bungalo_juice_bucket": "BungaloJuice Bucket",
+  "fluid.bungalo_juice": "BungaloJuice",
   "block.waffles.bungalo_log": "Bungalo Log"
 }
