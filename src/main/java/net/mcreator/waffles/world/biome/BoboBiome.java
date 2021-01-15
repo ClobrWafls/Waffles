@@ -58,7 +58,7 @@ public class BoboBiome extends WafflesModElements.ModElement {
 			super(new Biome.Builder().downfall(0f).depth(0.1f).scale(0.2f).temperature(0.7999999999999999f).precipitation(Biome.RainType.NONE)
 					.category(Biome.Category.PLAINS).waterColor(-39424).waterFogColor(329011)
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(Blocks.GRASS_BLOCK.getDefaultState(),
-							Blocks.TNT.getDefaultState(), Blocks.TNT.getDefaultState())));
+							Blocks.CAKE.getDefaultState(), Blocks.CAKE.getDefaultState())));
 			setRegistryName("bobo");
 			DefaultBiomeFeatures.addCarvers(this);
 			DefaultBiomeFeatures.addOres(this);
@@ -131,12 +131,12 @@ public class BoboBiome extends WafflesModElements.ModElement {
 				} else {
 					Block ground = world.getBlockState(position.add(0, -1, 0)).getBlock();
 					Block ground2 = world.getBlockState(position.add(0, -2, 0)).getBlock();
-					if (!((ground == Blocks.GRASS_BLOCK.getDefaultState().getBlock() || ground == Blocks.TNT.getDefaultState().getBlock())
-							&& (ground2 == Blocks.GRASS_BLOCK.getDefaultState().getBlock() || ground2 == Blocks.TNT.getDefaultState().getBlock())))
+					if (!((ground == Blocks.GRASS_BLOCK.getDefaultState().getBlock() || ground == Blocks.CAKE.getDefaultState().getBlock())
+							&& (ground2 == Blocks.GRASS_BLOCK.getDefaultState().getBlock() || ground2 == Blocks.CAKE.getDefaultState().getBlock())))
 						return false;
 					BlockState state = world.getBlockState(position.down());
 					if (position.getY() < world.getHeight() - height - 1) {
-						setTreeBlockState(changedBlocks, world, position.down(), Blocks.TNT.getDefaultState(), bbox);
+						setTreeBlockState(changedBlocks, world, position.down(), Blocks.CAKE.getDefaultState(), bbox);
 						for (int genh = position.getY() - 3 + height; genh <= position.getY() + height; genh++) {
 							int i4 = genh - (position.getY() + height);
 							int j1 = (int) (1 - i4 * 0.5);
@@ -230,7 +230,7 @@ public class BoboBiome extends WafflesModElements.ModElement {
 		private boolean canGrowInto(Block blockType) {
 			return blockType.getDefaultState().getMaterial() == Material.AIR || blockType == BungaloLogBlock.block.getDefaultState().getBlock()
 					|| blockType == BungaloLeavesBlock.block.getDefaultState().getBlock()
-					|| blockType == Blocks.GRASS_BLOCK.getDefaultState().getBlock() || blockType == Blocks.TNT.getDefaultState().getBlock();
+					|| blockType == Blocks.GRASS_BLOCK.getDefaultState().getBlock() || blockType == Blocks.CAKE.getDefaultState().getBlock();
 		}
 
 		private boolean isReplaceable(IWorld world, BlockPos pos) {

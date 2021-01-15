@@ -16,7 +16,7 @@
     "igniterTab": {
       "value": "TOOLS"
     },
-    "texture": "bean",
+    "texture": "n",
     "portalTexture": "bungalo_leaves",
     "enablePortal": true,
     "biomesInDimension": [
@@ -26,7 +26,7 @@
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:BungaloWood"
+      "value": "Blocks.STONE#0"
     },
     "fluidBlock": {
       "value": "CUSTOM:BungaloJuice"

@@ -70,7 +70,6 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.waffles.item.BungaloLandItem;
-import net.mcreator.waffles.block.BungaloWoodBlock;
 import net.mcreator.waffles.block.BungaloJuiceBlock;
 import net.mcreator.waffles.block.BungaloBlock;
 import net.mcreator.waffles.WafflesModElements;
@@ -738,7 +737,7 @@ public class BungaloLandDimension extends WafflesModElements.ModElement {
 		public ChunkProviderModded(IWorld world, BiomeProvider provider) {
 			super(world, provider, new OverworldGenSettings() {
 				public BlockState getDefaultBlock() {
-					return BungaloWoodBlock.block.getDefaultState();
+					return Blocks.STONE.getDefaultState();
 				}
 
 				public BlockState getDefaultFluid() {
@@ -770,7 +769,7 @@ public class BungaloLandDimension extends WafflesModElements.ModElement {
 				for (Biome biome : this.biomes) {
 					biome.addCarver(GenerationStage.Carving.AIR, Biome.createCarver(new CaveWorldCarver(ProbabilityConfig::deserialize, 256) {
 						{
-							carvableBlocks = ImmutableSet.of(BungaloWoodBlock.block.getDefaultState().getBlock(),
+							carvableBlocks = ImmutableSet.of(Blocks.STONE.getDefaultState().getBlock(),
 									biome.getSurfaceBuilder().getConfig().getTop().getBlock(),
 									biome.getSurfaceBuilder().getConfig().getUnder().getBlock());
 						}
