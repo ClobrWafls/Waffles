@@ -398,6 +398,83 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bungalo_armor_body_recipe"
+    },
+    {
+      "name": "BungaloArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_armor_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BungaloArmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_armor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BungaloArmorLeggingsTickEvent",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_armor_leggings_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BungaloArmorBootsTickEvent",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_armor_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BestWood",
+      "type": "achievement",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "best_wood"
     }
   ],
   "variable_elements": [],
@@ -409,8 +486,10 @@
       "block.waffles.bungalo_fence": "Bungalo Fence",
       "item.waffles.bungalo_armor_leggings": "Bungalo Leggings",
       "block.waffles.bungalo_leaves": "Bungalo Leaves",
+      "advancements.best_wood.title": "Best Wood",
       "block.waffles.bungalo_wood": "Bungalo Wood",
       "item.minecraft.tipped_arrow.effect.bungalomagik": "Arrow of Bungalomagik",
+      "advancements.best_wood.descr": "You have collected Bungalo \"Wood\"",
       "block.waffles.bungalo_log": "Bungalo Log",
       "item.minecraft.splash_potion.effect.bungalomagik": "Splash Bungalomagik",
       "block.waffles.bungalo": "Bungalo",

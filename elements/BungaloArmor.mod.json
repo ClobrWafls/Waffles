@@ -10,6 +10,18 @@
     "textureLeggings": "bungalo_leggings",
     "enableBoots": true,
     "textureBoots": "bungalo_boots",
+    "onHelmetTick": {
+      "name": "BungaloArmorHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "BungaloArmorBodyTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "BungaloArmorLeggingsTickEvent"
+    },
+    "onBootsTick": {
+      "name": "BungaloArmorBootsTickEvent"
+    },
     "creativeTab": {
       "value": "COMBAT"
     },
