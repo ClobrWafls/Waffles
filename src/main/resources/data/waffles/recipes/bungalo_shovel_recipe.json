@@ -3,7 +3,7 @@
   "type": "minecraft:stonecutting",
   "count": 1,
   "ingredient": {
-    "item": "waffles:bungalo_wood"
+    "item": "waffles:bungalo_ingut"
   },
   "result": "waffles:bungalo_shovel"
 }

@@ -9,7 +9,7 @@
     "group": "",
     "recipeShapeless": false,
     "stoneCuttingInputStack": {
-      "value": "CUSTOM:BungaloWood"
+      "value": "CUSTOM:BungaloIngut"
     },
     "stoneCuttingReturnStack": {
       "value": "CUSTOM:BungaloShovel"

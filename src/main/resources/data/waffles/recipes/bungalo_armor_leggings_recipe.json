@@ -3,7 +3,7 @@
   "type": "minecraft:stonecutting",
   "count": 1,
   "ingredient": {
-    "item": "waffles:bungalo_ingut"
+    "item": "waffles:unknown_element_leggings"
   },
-  "result": "waffles:bungalo_axe"
+  "result": "waffles:unknown_element"
 }

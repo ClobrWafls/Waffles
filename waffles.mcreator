@@ -280,23 +280,6 @@
       "registry_name": "bungalo_juice"
     },
     {
-      "name": "BungalomagikPotionStartedapplied",
-      "type": "procedure",
-      "sortid": 28,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bungalomagik_potion_startedapplied",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "BungalomagikOnPotionActiveTick",
       "type": "procedure",
       "sortid": 29,
@@ -331,6 +314,23 @@
       }
     },
     {
+      "name": "BungalomagikPotionStartedapplied",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalomagik_potion_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
       "name": "Bungalomagik",
       "type": "potion",
       "sortid": 28,
@@ -338,6 +338,66 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bungalomagik"
+    },
+    {
+      "name": "BungaloArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_armor_helmet_recipe"
+    },
+    {
+      "name": "BungaloArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_armor_leggings_recipe"
+    },
+    {
+      "name": "BungaloArmor",
+      "type": "armor",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Bungalo",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo"
+    },
+    {
+      "name": "BungaloArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_armor_boots_recipe"
+    },
+    {
+      "name": "BungaloArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_armor_body_recipe"
     }
   ],
   "variable_elements": [],
@@ -349,15 +409,10 @@
       "block.waffles.bungalo_fence": "Bungalo Fence",
       "block.waffles.bungalo_leaves": "Bungalo Leaves",
       "block.waffles.bungalo_wood": "Bungalo Wood",
-      "item.minecraft.tipped_arrow.effect.bungalomagik": "Arrow of Bungalomagik",
       "block.waffles.bungalo_log": "Bungalo Log",
-      "item.minecraft.splash_potion.effect.bungalomagik": "Splash Bungalomagik",
       "block.waffles.bungalo_stairs": "Bungalo Stairs",
       "block.waffles.bungalo_slab": "Bungalo Slab",
-      "item.minecraft.lingering_potion.effect.bungalomagik": "Lingering Bungalomagik",
-      "effect.bungalomagik": "Bungalomagik",
       "item.waffles.bungalo_juice_bucket": "BungaloJuice Bucket",
-      "item.minecraft.potion.effect.bungalomagik": "Bungalomagik",
       "fluid.bungalo_juice": "BungaloJuice"
     }
   },

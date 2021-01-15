@@ -26,6 +26,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -90,7 +91,7 @@ public class BungaloLogBlock extends WafflesModElements.ModElement {
 				}
 			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("bungalo_log", "bungalo_log", blockAt -> {
 				boolean blockCriteria = false;
-				if (blockAt.getBlock() == BungaloLeavesBlock.block.getDefaultState().getBlock())
+				if (blockAt.getBlock() == Blocks.END_STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
 			}), block.getDefaultState(), 16)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(10, 0, 0, 64))));
