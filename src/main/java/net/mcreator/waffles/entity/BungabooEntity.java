@@ -20,6 +20,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.network.IPacket;
 import net.minecraft.item.SpawnEggItem;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.monster.MonsterEntity;
@@ -40,6 +41,7 @@ import net.minecraft.client.renderer.entity.model.SlimeModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.waffles.item.SallyItem;
 import net.mcreator.waffles.WafflesModElements;
 
 @WafflesModElements.ModElement.Tag
@@ -120,6 +122,11 @@ public class BungabooEntity extends WafflesModElements.ModElement {
 		@Override
 		public double getMountedYOffset() {
 			return super.getMountedYOffset() + 0.5;
+		}
+
+		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
+			super.dropSpecialItems(source, looting, recentlyHitIn);
+			this.entityDropItem(new ItemStack(SallyItem.block, (int) (1)));
 		}
 
 		@Override

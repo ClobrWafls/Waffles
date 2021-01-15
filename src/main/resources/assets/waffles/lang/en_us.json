@@ -1,7 +1,7 @@
 {
   "biome.waffles.bobo": "Bobo",
-  "item.waffles.bungalo_land": "Bungalo Land Portal Igniter",
   "item.waffles.bungalo_armor_leggings": "Bungalo Leggings",
+  "item.waffles.bungalo_land": "Bungalo Land Portal Igniter",
   "advancements.best_wood.title": "Best Wood",
   "block.waffles.bungalo_wood": "Bungalo Wood",
   "entity.waffles.bungaboo": "Bungaboo",
@@ -21,6 +21,7 @@
   "block.waffles.bungalo_leaves": "Bungalo Leaves",
   "item.minecraft.tipped_arrow.effect.bungalomagik": "Arrow of Bungalomagik",
   "advancements.best_wood.descr": "You have collected Bungalo \"Wood\"",
+  "item.waffles.sally": "Sally",
   "block.waffles.bungalo_log": "Bungalo Log",
   "item.waffles.cookedbungofruit": "Cookedbungofruit",
   "item.minecraft.lingering_potion.effect.bungalomagik": "Lingering Bungalomagik",
