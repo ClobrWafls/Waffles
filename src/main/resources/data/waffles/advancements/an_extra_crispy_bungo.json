@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "waffles:cookedbungofruit"
+      "item": "waffles:unknown_element"
     },
     "title": {
       "translate": "advancements.an_extra_crispy_bungo.title"
@@ -19,7 +19,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "waffles:cookedbungofruit"
+          "item": "waffles:unknown_element"
         }
       }
     }
