@@ -1,0 +1,42 @@
+{
+  "group": "waffles",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:golden_apple"
+    },
+    "1": {
+      "item": "waffles:bungalo_leaves"
+    },
+    "2": {
+      "item": "minecraft:apple"
+    },
+    "3": {
+      "item": "waffles:bungalo_leaves"
+    },
+    "4": {
+      "item": "minecraft:potato"
+    },
+    "5": {
+      "item": "waffles:bungalo_leaves"
+    },
+    "6": {
+      "item": "minecraft:golden_apple"
+    },
+    "7": {
+      "item": "waffles:bungalo"
+    },
+    "8": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "item": "waffles:bungofruit",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "group": "waffles",
+  "type": "minecraft:smelting",
+  "experience": 0,
+  "cookingtime": 2000,
+  "ingredient": {
+    "item": "waffles:bungofruit"
+  },
+  "result": {
+    "item": "waffles:cookedbungofruit"
+  }
+}

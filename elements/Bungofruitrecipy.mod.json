@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.GOLDEN_APPLE#0"
+      },
+      {
+        "value": "CUSTOM:BungaloLeaves"
+      },
+      {
+        "value": "Items.APPLE"
+      },
+      {
+        "value": "CUSTOM:BungaloLeaves"
+      },
+      {
+        "value": "Items.POTATO"
+      },
+      {
+        "value": "CUSTOM:BungaloLeaves"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#0"
+      },
+      {
+        "value": "CUSTOM:Bungalo"
+      },
+      {
+        "value": "Items.APPLE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Bungofruit"
+    },
+    "name": "bungofruitrecipy",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "waffles:cookedbungofruit"
+    },
+    "title": {
+      "translate": "advancements.an_extra_crispy_bungo.title"
+    },
+    "description": {
+      "translate": "advancements.an_extra_crispy_bungo.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "an_extra_crispy_bungo": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "waffles:cookedbungofruit"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "waffles:best_wood"
+}
