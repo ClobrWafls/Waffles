@@ -144,6 +144,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bungalo_stick_recipe"
+    },
+    {
+      "name": "BungaloDoor",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_door"
+    },
+    {
+      "name": "BungaloIngut",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_ingut"
     }
   ],
   "variable_elements": [],
@@ -157,6 +175,7 @@
       "block.waffles.bungalo_stairs": "Bungalo Stairs",
       "block.waffles.bungalo_wood": "Bungalo Wood",
       "block.waffles.bungalo_slab": "Bungalo Slab",
+      "item.waffles.bungalo_ingut": "Bungalo Ingut",
       "block.waffles.bungalo_log": "Bungalo Log"
     }
   },
