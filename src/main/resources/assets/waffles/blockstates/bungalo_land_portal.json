@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "waffles:block/bungalo_land_portal_ew"
+    },
+    "axis=x": {
+      "model": "waffles:block/bungalo_land_portal_ns"
+    }
+  }
+}

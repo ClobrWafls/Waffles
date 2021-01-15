@@ -484,34 +484,54 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "blockofda"
+    },
+    {
+      "name": "Bobo",
+      "type": "biome",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bobo"
+    },
+    {
+      "name": "BungaloLand",
+      "type": "dimension",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_land"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.waffles.bungalo_planks": "Bungalo Planks",
-      "block.waffles.bungalo_fence_gate": "Bungalo Fence Gate",
-      "block.waffles.bungalo_fence": "Bungalo Fence",
+      "biome.waffles.bobo": "Bobo",
       "item.waffles.bungalo_armor_leggings": "Bungalo Leggings",
-      "block.waffles.bungalo_leaves": "Bungalo Leaves",
+      "item.waffles.bungalo_land": "Bungalo Land Portal Igniter",
       "advancements.best_wood.title": "Best Wood",
       "block.waffles.bungalo_wood": "Bungalo Wood",
-      "item.minecraft.tipped_arrow.effect.bungalomagik": "Arrow of Bungalomagik",
-      "advancements.best_wood.descr": "You have collected Bungalo \"Wood\"",
-      "block.waffles.bungalo_log": "Bungalo Log",
       "item.minecraft.splash_potion.effect.bungalomagik": "Splash Bungalomagik",
       "block.waffles.bungalo": "Bungalo",
       "item.waffles.bungalo_armor_chestplate": "Bungalo Chestplate",
       "block.waffles.bungalo_stairs": "Bungalo Stairs",
-      "block.waffles.bungalo_slab": "Bungalo Slab",
-      "item.minecraft.lingering_potion.effect.bungalomagik": "Lingering Bungalomagik",
       "item.waffles.bungalo_armor_boots": "Bungalo Boots",
-      "effect.bungalomagik": "Bungalomagik",
       "item.waffles.bungalo_juice_bucket": "BungaloJuice Bucket",
-      "item.minecraft.potion.effect.bungalomagik": "Bungalomagik",
       "fluid.bungalo_juice": "BungaloJuice",
-      "item.waffles.bungalo_armor_helmet": "Bungalo Helmet"
+      "item.waffles.bungalo_armor_helmet": "Bungalo Helmet",
+      "block.waffles.bungalo_fence_gate": "Bungalo Fence Gate",
+      "block.waffles.bungalo_planks": "Bungalo Planks",
+      "block.waffles.bungalo_fence": "Bungalo Fence",
+      "block.waffles.bungalo_leaves": "Bungalo Leaves",
+      "item.minecraft.tipped_arrow.effect.bungalomagik": "Arrow of Bungalomagik",
+      "advancements.best_wood.descr": "You have collected Bungalo \"Wood\"",
+      "block.waffles.bungalo_log": "Bungalo Log",
+      "item.minecraft.lingering_potion.effect.bungalomagik": "Lingering Bungalomagik",
+      "block.waffles.bungalo_slab": "Bungalo Slab",
+      "effect.bungalomagik": "Bungalomagik",
+      "item.minecraft.potion.effect.bungalomagik": "Bungalomagik"
     }
   },
   "workspaceSettings": {
