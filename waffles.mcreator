@@ -1,16 +1,6 @@
 {
   "id_map": {},
-  "mod_elements": [
-    {
-      "name": "Asf",
-      "type": "recipe",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "asf"
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
