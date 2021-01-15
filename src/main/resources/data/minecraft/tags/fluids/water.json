@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "waffles:bungalo_juice",
-    "waffles:bungalo_juice_flowing"
+    "waffles:bungalo_juice_flowing",
+    "waffles:superbungalojuice",
+    "waffles:superbungalojuice_flowing"
   ]
 }

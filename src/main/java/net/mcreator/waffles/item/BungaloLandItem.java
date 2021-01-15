@@ -1,11 +1,22 @@
 
 package net.mcreator.waffles.item;
 
-public class BungaloLandItem extends Item {
+import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.ActionResultType;
+import net.minecraft.item.ItemUseContext;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.entity.player.PlayerEntity;
+
+import net.mcreator.waffles.world.dimension.BungaloLandDimension;
+
+public class BungaloLandItem extends Item {
 	@ObjectHolder("waffles:bungalo_land")
 	public static final Item block = null;
-
 	public BungaloLandItem() {
 		super(new Item.Properties().group(ItemGroup.TOOLS).maxDamage(64));
 	}
@@ -22,10 +33,8 @@ public class BungaloLandItem extends Item {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-
 			if (world.isAirBlock(pos) && true)
 				BungaloLandDimension.portal.portalSpawn(world, pos);
-
 			itemstack.damageItem(1, entity, c -> c.sendBreakAnimation(context.getHand()));
 			return ActionResultType.SUCCESS;
 		}

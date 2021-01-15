@@ -10,15 +10,15 @@ import net.mcreator.waffles.WafflesModElements;
 import java.util.Map;
 
 @WafflesModElements.ModElement.Tag
-public class BungofruitFoodEatenProcedure extends WafflesModElements.ModElement {
-	public BungofruitFoodEatenProcedure(WafflesModElements instance) {
-		super(instance, 40);
+public class BungomonPlayerCollidesWithThisEntityProcedure extends WafflesModElements.ModElement {
+	public BungomonPlayerCollidesWithThisEntityProcedure(WafflesModElements instance) {
+		super(instance, 46);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure BungofruitFoodEaten!");
+				System.err.println("Failed to load dependency entity for procedure BungomonPlayerCollidesWithThisEntity!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
