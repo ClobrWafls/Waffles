@@ -146,31 +146,22 @@
       "registry_name": "bungalo_stick_recipe"
     },
     {
-      "name": "BungaloPickaxe",
-      "type": "tool",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bungalo_pickaxe"
-    },
-    {
-      "name": "BungaloAxe",
-      "type": "tool",
+      "name": "BungaloIngut",
+      "type": "item",
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "bungalo_axe"
+      "registry_name": "bungalo_ingut"
     },
     {
-      "name": "BungaloSword",
-      "type": "tool",
-      "sortid": 19,
+      "name": "BungaloDoor",
+      "type": "recipe",
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "bungalo_sword"
+      "registry_name": "bungalo_door"
     },
     {
       "name": "BungaloShovel",
@@ -182,6 +173,15 @@
       "registry_name": "bungalo_shovel"
     },
     {
+      "name": "BungaloAxe",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_axe"
+    },
+    {
       "name": "BungaloHoe",
       "type": "tool",
       "sortid": 21,
@@ -189,15 +189,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bungalo_hoe"
-    },
-    {
-      "name": "BungaloPickaxeRecipe",
-      "type": "recipe",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bungalo_pickaxe_recipe"
     },
     {
       "name": "BungaloAxeRecipe",
@@ -218,13 +209,13 @@
       "registry_name": "bungalo_sword_recipe"
     },
     {
-      "name": "BungaloShovelRecipe",
-      "type": "recipe",
-      "sortid": 25,
+      "name": "BungaloPickaxe",
+      "type": "tool",
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "bungalo_shovel_recipe"
+      "registry_name": "bungalo_pickaxe"
     },
     {
       "name": "BungaloHoeRecipe",
@@ -234,6 +225,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bungalo_hoe_recipe"
+    },
+    {
+      "name": "BungaloSword",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_sword"
+    },
+    {
+      "name": "BungaloShovelRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_shovel_recipe"
+    },
+    {
+      "name": "BungaloPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalo_pickaxe_recipe"
     }
   ],
   "variable_elements": [],
@@ -245,14 +263,9 @@
       "block.waffles.bungalo_fence": "Bungalo Fence",
       "block.waffles.bungalo_leaves": "Bungalo Leaves",
       "block.waffles.bungalo_wood": "Bungalo Wood",
-      "item.waffles.bungalo_axe": "Bungalo Axe",
-      "item.waffles.bungalo_shovel": "Bungalo Shovel",
       "block.waffles.bungalo_log": "Bungalo Log",
-      "item.waffles.bungalo_sword": "Bungalo Sword",
       "block.waffles.bungalo_stairs": "Bungalo Stairs",
-      "block.waffles.bungalo_slab": "Bungalo Slab",
-      "item.waffles.bungalo_pickaxe": "Bungalo Pickaxe",
-      "item.waffles.bungalo_hoe": "Bungalo Hoe"
+      "block.waffles.bungalo_slab": "Bungalo Slab"
     }
   },
   "workspaceSettings": {
