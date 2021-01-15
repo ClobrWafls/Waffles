@@ -1,6 +1,9 @@
 package net.mcreator.waffles.procedures;
 
 import net.minecraft.util.DamageSource;
+import net.minecraft.potion.Effects;
+import net.minecraft.potion.EffectInstance;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.waffles.WafflesModElements;
@@ -21,5 +24,7 @@ public class BungalomagikOnPotionActiveTickProcedure extends WafflesModElements.
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		entity.attackEntityFrom(DamageSource.MAGIC, (float) 5);
+		if (entity instanceof LivingEntity)
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.INSTANT_HEALTH, (int) 60, (int) 2, (false), (false)));
 	}
 }

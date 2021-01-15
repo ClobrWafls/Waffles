@@ -8,6 +8,7 @@ import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.potion.Potion;
 import net.minecraft.potion.EffectType;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effect;
@@ -26,6 +27,8 @@ import java.util.HashMap;
 public class BungalomagikPotion extends WafflesModElements.ModElement {
 	@ObjectHolder("waffles:bungalomagik")
 	public static final Effect potion = null;
+	@ObjectHolder("waffles:bungalomagik")
+	public static final Potion potionType = null;
 	public BungalomagikPotion(WafflesModElements instance) {
 		super(instance, 28);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
@@ -35,10 +38,22 @@ public class BungalomagikPotion extends WafflesModElements.ModElement {
 	public void registerEffect(RegistryEvent.Register<Effect> event) {
 		event.getRegistry().register(new EffectCustom());
 	}
+
+	@SubscribeEvent
+	public void registerPotion(RegistryEvent.Register<Potion> event) {
+		event.getRegistry().register(new PotionCustom());
+	}
+	public static class PotionCustom extends Potion {
+		public PotionCustom() {
+			super(new EffectInstance(potion, 3600));
+			setRegistryName("bungalomagik");
+		}
+	}
+
 	public static class EffectCustom extends Effect {
 		private final ResourceLocation potionIcon;
 		public EffectCustom() {
-			super(EffectType.NEUTRAL, -10092391);
+			super(EffectType.HARMFUL, -10092391);
 			setRegistryName("bungalomagik");
 			potionIcon = new ResourceLocation("waffles:textures/untitled.png");
 		}
@@ -50,7 +65,7 @@ public class BungalomagikPotion extends WafflesModElements.ModElement {
 
 		@Override
 		public boolean isBeneficial() {
-			return false;
+			return true;
 		}
 
 		@Override
