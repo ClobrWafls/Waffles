@@ -26,7 +26,6 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
-import net.minecraft.block.LeavesBlock;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
@@ -51,9 +50,9 @@ public class BungaloLeavesBlock extends WafflesModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
 	}
-	public static class CustomBlock extends LeavesBlock {
+	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(1.6f, 1.6f).lightValue(15).notSolid());
+			super(Block.Properties.create(Material.SPONGE).sound(SoundType.PLANT).hardnessAndResistance(1.6f, 1.6f).lightValue(15));
 			setRegistryName("bungalo_leaves");
 		}
 
