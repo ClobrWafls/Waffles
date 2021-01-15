@@ -63,7 +63,8 @@ public class BungomonEntity extends WafflesModElements.ModElement {
 				.setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(2.5f, 5f)).build("bungomon")
 						.setRegistryName("bungomon");
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -1, -1, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("bungomon_spawn_egg"));
+		elements.items.add(() -> new SpawnEggItem(entity, -13434625, -16711936, new Item.Properties().group(ItemGroup.MISC))
+				.setRegistryName("bungomon_spawn_egg"));
 	}
 
 	@Override

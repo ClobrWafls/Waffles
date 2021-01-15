@@ -1,11 +1,16 @@
 package net.mcreator.waffles.procedures;
 
+import net.minecraft.util.DamageSource;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.waffles.WafflesModElements;
+
+import java.util.Map;
+
 @WafflesModElements.ModElement.Tag
 public class SuperbungalojuiceMobplayerCollidesBlockProcedure extends WafflesModElements.ModElement {
-
 	public SuperbungalojuiceMobplayerCollidesBlockProcedure(WafflesModElements instance) {
 		super(instance, 47);
-
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -14,15 +19,11 @@ public class SuperbungalojuiceMobplayerCollidesBlockProcedure extends WafflesMod
 				System.err.println("Failed to load dependency entity for procedure SuperbungalojuiceMobplayerCollidesBlock!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
-
 		for (int index0 = 0; index0 < (int) (4); index0++) {
 			entity.attackEntityFrom(DamageSource.GENERIC, (float) 1);
 			entity.attackEntityFrom(DamageSource.GENERIC, (float) 2);
 			entity.attackEntityFrom(DamageSource.GENERIC, (float) 3);
 		}
-
 	}
-
 }

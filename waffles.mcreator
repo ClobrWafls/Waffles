@@ -726,11 +726,13 @@
   "language_map": {
     "en_us": {
       "biome.waffles.bobo": "Bobo",
-      "item.waffles.bungalo_armor_leggings": "Bungalo Leggings",
       "item.waffles.bungalo_land": "Bungalo Land Portal Igniter",
+      "item.waffles.bungalo_armor_leggings": "Bungalo Leggings",
       "advancements.best_wood.title": "Best Wood",
       "block.waffles.bungalo_wood": "Bungalo Wood",
+      "fluid.superbungalojuice": "Superbungalojuice",
       "entity.waffles.bungaboo": "Bungaboo",
+      "item.waffles.superbungalojuice_bucket": "Superbungalojuice Bucket",
       "item.minecraft.splash_potion.effect.bungalomagik": "Splash Bungalomagik",
       "block.waffles.bungalo": "Bungalo",
       "item.waffles.bungalo_armor_chestplate": "Bungalo Chestplate",
