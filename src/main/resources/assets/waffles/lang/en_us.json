@@ -3,10 +3,15 @@
   "block.waffles.bungalo_fence_gate": "Bungalo Fence Gate",
   "block.waffles.bungalo_fence": "Bungalo Fence",
   "block.waffles.bungalo_leaves": "Bungalo Leaves",
-  "block.waffles.bungalo_stairs": "Bungalo Stairs",
   "block.waffles.bungalo_wood": "Bungalo Wood",
+  "item.minecraft.tipped_arrow.effect.bungalomagik": "Arrow of Bungalomagik",
+  "block.waffles.bungalo_log": "Bungalo Log",
+  "item.minecraft.splash_potion.effect.bungalomagik": "Splash Bungalomagik",
+  "block.waffles.bungalo_stairs": "Bungalo Stairs",
   "block.waffles.bungalo_slab": "Bungalo Slab",
+  "item.minecraft.lingering_potion.effect.bungalomagik": "Lingering Bungalomagik",
+  "effect.bungalomagik": "Bungalomagik",
   "item.waffles.bungalo_juice_bucket": "BungaloJuice Bucket",
-  "fluid.bungalo_juice": "BungaloJuice",
-  "block.waffles.bungalo_log": "Bungalo Log"
+  "item.minecraft.potion.effect.bungalomagik": "Bungalomagik",
+  "fluid.bungalo_juice": "BungaloJuice"
 }

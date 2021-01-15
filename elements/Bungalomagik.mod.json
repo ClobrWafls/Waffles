@@ -1,0 +1,28 @@
+{
+  "_fv": 13,
+  "_type": "potion",
+  "definition": {
+    "name": "Bungalomagik",
+    "effectName": "Bungalomagik",
+    "icon": "untitled.png",
+    "color": {
+      "value": -10092391,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": false,
+    "registerPotionType": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "BungalomagikPotionStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "BungalomagikOnPotionActiveTick"
+    },
+    "onExpired": {
+      "name": "BungalomagikPotionExpires"
+    }
+  }
+}
