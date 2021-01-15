@@ -1,0 +1,42 @@
+{
+  "group": "waffles",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waffles:bungalo_ingut"
+    },
+    "1": {
+      "item": "waffles:bungalo_ingut"
+    },
+    "2": {
+      "item": "waffles:bungalo_ingut"
+    },
+    "3": {
+      "item": "waffles:bungalo_ingut"
+    },
+    "4": {
+      "item": "waffles:bungalo_leaves"
+    },
+    "5": {
+      "item": "waffles:bungalo_ingut"
+    },
+    "6": {
+      "item": "waffles:bungalo_ingut"
+    },
+    "7": {
+      "item": "waffles:bungalo_ingut"
+    },
+    "8": {
+      "item": "waffles:bungalo_ingut"
+    }
+  },
+  "result": {
+    "item": "waffles:bungalo",
+    "count": 1
+  }
+}

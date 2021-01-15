@@ -475,6 +475,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "best_wood"
+    },
+    {
+      "name": "Blockofda",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blockofda"
     }
   ],
   "variable_elements": [],
