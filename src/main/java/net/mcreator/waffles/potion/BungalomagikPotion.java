@@ -65,7 +65,7 @@ public class BungalomagikPotion extends WafflesModElements.ModElement {
 
 		@Override
 		public boolean isBeneficial() {
-			return false;
+			return true;
 		}
 
 		@Override

@@ -23,6 +23,6 @@ public class BungalomagikPotionStartedappliedProcedure extends WafflesModElement
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.LEVITATION, (int) 1, (int) 100, (false), (false)));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.LEVITATION, (int) 20, (int) 100, (false), (false)));
 	}
 }
