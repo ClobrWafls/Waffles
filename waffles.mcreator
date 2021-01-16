@@ -1398,15 +1398,15 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "biome.waffles.bobo": "Bobo",
       "advancements.numflordd.title": "MLG pro",
-      "item.waffles.bungalo_armor_leggings": "Bungalo Leggings",
+      "biome.waffles.bobo": "Bobo",
       "item.waffles.bungalo_land": "Bungalo Land Portal Igniter",
+      "item.waffles.bungalo_armor_leggings": "Bungalo Leggings",
       "block.waffles.numfstone": "Numfstone",
       "item.waffles.numfitetools_axe": "Numfitetools Axe",
       "item.waffles.numfheart": "Numfheart",
-      "item.waffles.numfitearmors_armor_boots": "Numfitearmors Boots",
       "item.waffles.numf_crystal_spawn_egg": "Numf Crystal Spawn Egg",
+      "item.waffles.numfitearmors_armor_boots": "Numfitearmors Boots",
       "item.waffles.bungalo_axe": "Bungalo Axe",
       "item.waffles.moonpearl": "Moonpearl",
       "block.waffles.bungalo_stairs": "Bungalo Stairs",
