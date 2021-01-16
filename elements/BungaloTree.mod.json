@@ -5,7 +5,7 @@
     "structure": "bungalo_trees",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 10000,
+    "spawnProbability": 100000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 5,
     "spawnLocation": "Ground",
