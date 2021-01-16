@@ -15,9 +15,7 @@
       "value": "MISC"
     },
     "frequencyOnChunks": 4,
-    "spawnWorldTypes": [
-      "End"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "onEntityCollides": {
       "name": "BungaloJuiceMobplayerCollidesBlock"

@@ -24,15 +24,14 @@ import net.minecraft.util.Rotation;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Mirror;
 
-import net.mcreator.waffles.world.dimension.BungaloLandDimension;
 import net.mcreator.waffles.WafflesModElements;
 
 import java.util.Random;
 
 @WafflesModElements.ModElement.Tag
-public class TempleofNumfStructure extends WafflesModElements.ModElement {
-	public TempleofNumfStructure(WafflesModElements instance) {
-		super(instance, 56);
+public class BungaloTreeStructure extends WafflesModElements.ModElement {
+	public BungaloTreeStructure(WafflesModElements instance) {
+		super(instance, 58);
 	}
 
 	@Override
@@ -44,17 +43,17 @@ public class TempleofNumfStructure extends WafflesModElements.ModElement {
 				int ck = (pos.getZ() >> 4) << 4;
 				DimensionType dimensionType = world.getDimension().getType();
 				boolean dimensionCriteria = false;
-				if (dimensionType == BungaloLandDimension.type)
+				if (dimensionType == DimensionType.THE_END)
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
-				if ((random.nextInt(1000000) + 1) <= 4500) {
-					int count = random.nextInt(1) + 1;
+				if ((random.nextInt(1000000) + 1) <= 10000) {
+					int count = random.nextInt(5) + 1;
 					for (int a = 0; a < count; a++) {
 						int i = ci + random.nextInt(16);
 						int k = ck + random.nextInt(16);
-						int j = world.getHeight(Heightmap.Type.WORLD_SURFACE_WG, i, k);
-						j += random.nextInt(50) + 16;
+						int j = world.getHeight(Heightmap.Type.OCEAN_FLOOR_WG, i, k);
+						j -= 1;
 						Rotation rotation = Rotation.values()[random.nextInt(3)];
 						Mirror mirror = Mirror.values()[random.nextInt(2)];
 						BlockPos spawnTo = new BlockPos(i + 0, j + 0, k + 0);
@@ -62,18 +61,18 @@ public class TempleofNumfStructure extends WafflesModElements.ModElement {
 						int y = spawnTo.getY();
 						int z = spawnTo.getZ();
 						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-								.getTemplateDefaulted(new ResourceLocation("waffles", "temple_of_numf"));
+								.getTemplateDefaulted(new ResourceLocation("waffles", "bungalo_trees"));
 						if (template == null)
 							return false;
 						template.addBlocksToWorld(world, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
-								.addProcessor(BlockIgnoreStructureProcessor.AIR_AND_STRUCTURE_BLOCK).setChunk(null).setIgnoreEntities(false));
+								.addProcessor(BlockIgnoreStructureProcessor.STRUCTURE_BLOCK).setChunk(null).setIgnoreEntities(false));
 					}
 				}
 				return true;
 			}
 		};
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
-			biome.addFeature(GenerationStage.Decoration.RAW_GENERATION, feature.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG)
+			biome.addFeature(GenerationStage.Decoration.SURFACE_STRUCTURES, feature.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG)
 					.withPlacement(Placement.NOPE.configure(IPlacementConfig.NO_PLACEMENT_CONFIG)));
 		}
 	}
