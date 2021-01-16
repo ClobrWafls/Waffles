@@ -41,7 +41,7 @@ public class BungaloSwordItem extends WafflesModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 14;
+				return 100;
 			}
 
 			public Ingredient getRepairMaterial() {

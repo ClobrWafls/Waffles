@@ -1,0 +1,30 @@
+{
+  "_fv": 13,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Billy",
+    "type": "ARMOR",
+    "rarity": "UNCOMMON",
+    "minLevel": 15,
+    "maxLevel": 40,
+    "damageModifier": 8,
+    "compatibleEnchantments": [],
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:BungaloArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:BungaloArmor.body"
+      },
+      {
+        "value": "CUSTOM:BungaloArmor.legs"
+      },
+      {
+        "value": "CUSTOM:BungaloArmor.boots"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true
+  }
+}
