@@ -1161,6 +1161,32 @@
           }
         ]
       }
+    },
+    {
+      "name": "Numfty",
+      "type": "item",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numfty"
+    },
+    {
+      "name": "NumftyItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numfty_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1191,6 +1217,7 @@
       "item.waffles.cookedbungofruit": "Cookedbungofruit",
       "item.waffles.numfcore": "Numfcore",
       "item.waffles.numfitetools_hoe": "Numfitetools Hoe",
+      "item.waffles.numfty": "Numfty",
       "effect.bungalomagik": "Bungalomagik",
       "block.waffles.numfiteblock": "Numfiteblock",
       "advancements.best_wood.title": "Best Wood",
