@@ -1205,6 +1205,50 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "numftys"
+    },
+    {
+      "name": "Bobyboo",
+      "type": "achievement",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bobyboo"
+    },
+    {
+      "name": "Congrats",
+      "type": "achievement",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "congrats"
+    },
+    {
+      "name": "Numflordd",
+      "type": "achievement",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numflordd"
+    },
+    {
+      "name": "NumflordEntityDies",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numflord_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1212,6 +1256,7 @@
   "language_map": {
     "en_us": {
       "biome.waffles.bobo": "Bobo",
+      "advancements.numflordd.title": "MLG pro",
       "item.waffles.bungalo_land": "Bungalo Land Portal Igniter",
       "item.waffles.bungalo_armor_leggings": "Bungalo Leggings",
       "block.waffles.numfstone": "Numfstone",
@@ -1237,7 +1282,9 @@
       "item.waffles.numfitetools_hoe": "Numfitetools Hoe",
       "item.waffles.numfty": "Numfty",
       "effect.bungalomagik": "Bungalomagik",
+      "advancements.numflordd.descr": "You defeated the Numflord",
       "block.waffles.numfiteblock": "Numfiteblock",
+      "advancements.bobyboo.descr": "You crafted a Numfite hoe... yay?",
       "advancements.best_wood.title": "Best Wood",
       "block.waffles.bungalo_wood": "Bungalo Wood",
       "fluid.superbungalojuice": "Superbungalojuice",
@@ -1246,8 +1293,10 @@
       "item.waffles.superbungalojuice_bucket": "Superbungalojuice Bucket",
       "entity.waffles.numfgolem": "Numfgolem",
       "item.minecraft.splash_potion.effect.bungalomagik": "Splash Bungalomagik",
+      "advancements.congrats.title": "Core of the numf",
       "block.waffles.bungalo": "Bungalo",
       "item.waffles.bungalo_armor_chestplate": "Bungalo Chestplate",
+      "advancements.bobyboo.title": "Uselesser than anything else",
       "block.waffles.nurmf_stone": "Nurmf Stone",
       "item.waffles.bungalo_armor_boots": "Bungalo Boots",
       "item.waffles.bungofruit": "Bungofruit",
@@ -1258,6 +1307,7 @@
       "item.waffles.numfty_shard": "Numfty Shard",
       "item.waffles.numfitetools_pickaxe": "Numfitetools Pickaxe",
       "block.waffles.bungalo_leaves": "Bungalo Leaves",
+      "advancements.congrats.descr": "You got a numfite core!",
       "block.waffles.numfslab": "Numfslab",
       "item.minecraft.tipped_arrow.effect.bungalomagik": "Arrow of Bungalomagik",
       "block.waffles.numfstair": "Numfstair",

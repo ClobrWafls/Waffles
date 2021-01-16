@@ -20,7 +20,7 @@
       "item": "waffles:numfite"
     },
     "4": {
-      "item": "waffles:unknown_element"
+      "item": "waffles:numfcore"
     },
     "5": {
       "item": "waffles:numfite"
@@ -36,7 +36,7 @@
     }
   },
   "result": {
-    "item": "waffles:unknown_element",
+    "item": "waffles:numfitetools_hoe",
     "count": 1
   }
 }
