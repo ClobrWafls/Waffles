@@ -32,5 +32,6 @@
   },
   "rewards": {
     "experience": 1
-  }
+  },
+  "parent": "waffles:congrats"
 }
