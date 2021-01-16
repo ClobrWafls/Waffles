@@ -1161,6 +1161,32 @@
           }
         ]
       }
+    },
+    {
+      "name": "Numfty",
+      "type": "item",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numfty"
+    },
+    {
+      "name": "NumftyItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numfty_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1168,13 +1194,13 @@
   "language_map": {
     "en_us": {
       "biome.waffles.bobo": "Bobo",
-      "item.waffles.bungalo_armor_leggings": "Bungalo Leggings",
       "item.waffles.bungalo_land": "Bungalo Land Portal Igniter",
+      "item.waffles.bungalo_armor_leggings": "Bungalo Leggings",
       "block.waffles.numfstone": "Numfstone",
       "item.waffles.numfitetools_axe": "Numfitetools Axe",
       "item.waffles.numfheart": "Numfheart",
-      "item.waffles.numfitearmors_armor_boots": "Numfitearmors Boots",
       "item.waffles.numf_crystal_spawn_egg": "Numf Crystal Spawn Egg",
+      "item.waffles.numfitearmors_armor_boots": "Numfitearmors Boots",
       "item.waffles.bungalo_axe": "Bungalo Axe",
       "block.waffles.bungalo_stairs": "Bungalo Stairs",
       "fluid.bungalo_juice": "BungaloJuice",
@@ -1191,6 +1217,7 @@
       "item.waffles.cookedbungofruit": "Cookedbungofruit",
       "item.waffles.numfcore": "Numfcore",
       "item.waffles.numfitetools_hoe": "Numfitetools Hoe",
+      "item.waffles.numfty": "Numfty",
       "effect.bungalomagik": "Bungalomagik",
       "block.waffles.numfiteblock": "Numfiteblock",
       "advancements.best_wood.title": "Best Wood",
