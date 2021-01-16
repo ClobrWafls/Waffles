@@ -1207,6 +1207,18 @@
       "registry_name": "numftys"
     },
     {
+      "name": "NumflordOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numflord_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
       "name": "NumflordEntityFalls",
       "type": "procedure",
       "sortid": 92,
@@ -1241,15 +1253,47 @@
       }
     },
     {
-      "name": "NumflordOnInitialEntitySpawn",
-      "type": "procedure",
+      "name": "Numflordd",
+      "type": "achievement",
       "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "numflord_on_initial_entity_spawn",
+      "registry_name": "numflordd"
+    },
+    {
+      "name": "Congrats",
+      "type": "achievement",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "congrats"
+    },
+    {
+      "name": "Bobyboo",
+      "type": "achievement",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bobyboo"
+    },
+    {
+      "name": "NumflordEntityDies",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numflord_entity_dies",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       }
     }
   ],
