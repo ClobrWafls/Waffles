@@ -29,7 +29,7 @@ public class BungaloShovelItem extends WafflesModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 6f;
 			}
 
 			public float getAttackDamage() {

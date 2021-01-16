@@ -11,32 +11,32 @@
       "item": "waffles:bungalo_sword"
     },
     "1": {
-      "item": "waffles:numfite"
+      "item": "waffles:unknown_element"
     },
     "2": {
       "item": "waffles:bungalo_sword"
     },
     "3": {
-      "item": "waffles:numfite"
+      "item": "waffles:unknown_element"
     },
     "4": {
-      "item": "waffles:numfcore"
+      "item": "waffles:unknown_element"
     },
     "5": {
-      "item": "waffles:numfite"
+      "item": "waffles:unknown_element"
     },
     "6": {
       "item": "waffles:bungalo_sword"
     },
     "7": {
-      "item": "waffles:numfite"
+      "item": "waffles:unknown_element"
     },
     "8": {
       "item": "waffles:bungalo_sword"
     }
   },
   "result": {
-    "item": "waffles:numfitetools_sword",
+    "item": "waffles:unknown_element",
     "count": 1
   }
 }

@@ -1,21 +1,12 @@
 
 package net.mcreator.waffles.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.SwordItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-
-import net.mcreator.waffles.WafflesModElements;
-
 @WafflesModElements.ModElement.Tag
 public class NumfitetoolsSwordItem extends WafflesModElements.ModElement {
+
 	@ObjectHolder("waffles:numfitetools_sword")
 	public static final Item block = null;
+
 	public NumfitetoolsSwordItem(WafflesModElements instance) {
 		super(instance, 71);
 	}
@@ -47,6 +38,8 @@ public class NumfitetoolsSwordItem extends WafflesModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(NumfiteItem.block, (int) (1)));
 			}
 		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+
 		}.setRegistryName("numfitetools_sword"));
 	}
+
 }

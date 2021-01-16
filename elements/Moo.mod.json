@@ -2,7 +2,7 @@
   "_fv": 13,
   "_type": "function",
   "definition": {
-    "code": "# Enter the function code here\ngive @p waffles:bungalo_land",
+    "code": "# Enter the function code here\ngive @p waffles:bungalo_land\nsay nether portal out of bungalo blocks",
     "name": "moo",
     "namespace": "mod"
   }

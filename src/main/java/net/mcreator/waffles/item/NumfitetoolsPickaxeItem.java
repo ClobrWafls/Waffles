@@ -1,21 +1,12 @@
 
 package net.mcreator.waffles.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.PickaxeItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-
-import net.mcreator.waffles.WafflesModElements;
-
 @WafflesModElements.ModElement.Tag
 public class NumfitetoolsPickaxeItem extends WafflesModElements.ModElement {
+
 	@ObjectHolder("waffles:numfitetools_pickaxe")
 	public static final Item block = null;
+
 	public NumfitetoolsPickaxeItem(WafflesModElements instance) {
 		super(instance, 69);
 	}
@@ -47,6 +38,8 @@ public class NumfitetoolsPickaxeItem extends WafflesModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(NumfiteItem.block, (int) (1)));
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+
 		}.setRegistryName("numfitetools_pickaxe"));
 	}
+
 }
