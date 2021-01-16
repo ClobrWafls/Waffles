@@ -719,6 +719,104 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "moo"
+    },
+    {
+      "name": "NurmfStoneEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nurmf_stone_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Numfslab",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numfslab"
+    },
+    {
+      "name": "Numfgolem",
+      "type": "mob",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numfgolem"
+    },
+    {
+      "name": "NumfCrystal",
+      "type": "mob",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numf_crystal"
+    },
+    {
+      "name": "Numfstone",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numfstone"
+    },
+    {
+      "name": "Numfstair",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numfstair"
+    },
+    {
+      "name": "NurmfStone",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nurmf_stone"
+    },
+    {
+      "name": "Something",
+      "type": "structure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "something"
+    },
+    {
+      "name": "Numfpice",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numfpice"
+    },
+    {
+      "name": "TempleofNumf",
+      "type": "structure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "templeof_numf"
     }
   ],
   "variable_elements": [],

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "waffles:block/numfslab"
+    },
+    "type=top": {
+      "model": "waffles:block/numfslab_top"
+    },
+    "type=double": {
+      "model": "waffles:block/numfslab_full"
+    }
+  }
+}

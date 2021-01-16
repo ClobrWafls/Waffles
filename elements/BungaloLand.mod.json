@@ -38,7 +38,7 @@
     "canRespawnHere": true,
     "hasFog": true,
     "hasWeather": true,
-    "isDark": false,
+    "isDark": true,
     "doesWaterVaporize": false,
     "sleepResult": "ALLOW",
     "hasSkyLight": true,
