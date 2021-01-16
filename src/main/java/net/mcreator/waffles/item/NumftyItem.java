@@ -6,6 +6,8 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
+import net.minecraft.util.Hand;
+import net.minecraft.util.ActionResult;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
@@ -59,8 +61,9 @@ public class NumftyItem extends WafflesModElements.ModElement {
 		}
 
 		@Override
-		public void onCreated(ItemStack itemstack, World world, PlayerEntity entity) {
-			super.onCreated(itemstack, world, entity);
+		public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity entity, Hand hand) {
+			ActionResult<ItemStack> ar = super.onItemRightClick(world, entity, hand);
+			ItemStack itemstack = ar.getResult();
 			double x = entity.getPosX();
 			double y = entity.getPosY();
 			double z = entity.getPosZ();
@@ -69,6 +72,7 @@ public class NumftyItem extends WafflesModElements.ModElement {
 				$_dependencies.put("entity", entity);
 				NumftyItemIsCraftedsmeltedProcedure.executeProcedure($_dependencies);
 			}
+			return ar;
 		}
 	}
 }
