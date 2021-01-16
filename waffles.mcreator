@@ -1212,13 +1212,13 @@
   "language_map": {
     "en_us": {
       "biome.waffles.bobo": "Bobo",
-      "item.waffles.bungalo_land": "Bungalo Land Portal Igniter",
       "item.waffles.bungalo_armor_leggings": "Bungalo Leggings",
+      "item.waffles.bungalo_land": "Bungalo Land Portal Igniter",
       "block.waffles.numfstone": "Numfstone",
       "item.waffles.numfitetools_axe": "Numfitetools Axe",
       "item.waffles.numfheart": "Numfheart",
-      "item.waffles.numf_crystal_spawn_egg": "Numf Crystal Spawn Egg",
       "item.waffles.numfitearmors_armor_boots": "Numfitearmors Boots",
+      "item.waffles.numf_crystal_spawn_egg": "Numf Crystal Spawn Egg",
       "item.waffles.bungalo_axe": "Bungalo Axe",
       "block.waffles.bungalo_stairs": "Bungalo Stairs",
       "fluid.bungalo_juice": "BungaloJuice",
