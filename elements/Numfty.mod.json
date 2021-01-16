@@ -28,7 +28,7 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onCrafted": {
+    "onRightClickedInAir": {
       "name": "NumftyItemIsCraftedsmelted"
     }
   }
