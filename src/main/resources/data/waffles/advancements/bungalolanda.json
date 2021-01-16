@@ -16,9 +16,9 @@
   },
   "criteria": {
     "bungalolanda": {
-      "trigger": "minecraft:changed_dimension",
+      "trigger": "minecraft:location",
       "conditions": {
-        "to": "waffles:bungalo_land"
+        "biome": "waffles:bobo"
       }
     }
   },
