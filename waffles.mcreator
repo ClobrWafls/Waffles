@@ -1383,6 +1383,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "moonpearl_1"
+    },
+    {
+      "name": "MoonTemple",
+      "type": "structure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moon_temple"
     }
   ],
   "variable_elements": [],
