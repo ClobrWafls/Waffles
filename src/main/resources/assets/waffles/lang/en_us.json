@@ -1,14 +1,16 @@
 {
-  "advancements.numflordd.title": "MLG pro",
   "biome.waffles.bobo": "Bobo",
-  "item.waffles.bungalo_land": "Bungalo Land Portal Igniter",
+  "advancements.numflordd.title": "MLG pro",
   "item.waffles.bungalo_armor_leggings": "Bungalo Leggings",
+  "item.waffles.bungalo_land": "Bungalo Land Portal Igniter",
   "block.waffles.numfstone": "Numfstone",
   "item.waffles.numfitetools_axe": "Numfitetools Axe",
+  "advancements.bungo.descr": "eat a bungo fruit",
   "item.waffles.numfheart": "Numfheart",
-  "item.waffles.numf_crystal_spawn_egg": "Numf Crystal Spawn Egg",
   "item.waffles.numfitearmors_armor_boots": "Numfitearmors Boots",
+  "item.waffles.numf_crystal_spawn_egg": "Numf Crystal Spawn Egg",
   "item.waffles.bungalo_axe": "Bungalo Axe",
+  "advancements.bungo.title": "Bungo",
   "item.waffles.moonpearl": "Moonpearl",
   "block.waffles.bungalo_stairs": "Bungalo Stairs",
   "fluid.bungalo_juice": "BungaloJuice",
@@ -21,6 +23,7 @@
   "item.waffles.rawnumfite": "Rawnumfite",
   "block.waffles.bungalo_log": "Bungalo Log",
   "item.waffles.numfgolem_spawn_egg": "Numfgolem Spawn Egg",
+  "advancements.an_extra_crispy_bungo.title": "An Extra Crispy Bungo",
   "entity.waffles.numflord": "Numflord",
   "item.waffles.cookedbungofruit": "Cookedbungofruit",
   "item.waffles.numfcore": "Numfcore",
@@ -72,5 +75,6 @@
   "item.minecraft.lingering_potion.effect.bungalomagik": "Lingering Bungalomagik",
   "block.waffles.bungalo_slab": "Bungalo Slab",
   "item.minecraft.potion.effect.bungalomagik": "Bungalomagik",
-  "item.waffles.numflord_spawn_egg": "Numflord Spawn Egg"
+  "item.waffles.numflord_spawn_egg": "Numflord Spawn Egg",
+  "advancements.an_extra_crispy_bungo.descr": "Look what youve done"
 }
