@@ -2,6 +2,7 @@
 package net.mcreator.waffles.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.IWorldReader;
@@ -39,7 +40,8 @@ public class BungaloLeavesBlock extends WafflesModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.SPONGE).sound(SoundType.PLANT).hardnessAndResistance(1.6f, 1.6f).lightValue(15));
+			super(Block.Properties.create(Material.SPONGE).sound(SoundType.PLANT).hardnessAndResistance(1.6f, 1.6f).lightValue(15).harvestLevel(0)
+					.harvestTool(ToolType.AXE));
 			setRegistryName("bungalo_leaves");
 		}
 
