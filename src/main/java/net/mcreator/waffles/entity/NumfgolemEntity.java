@@ -161,7 +161,7 @@ public class NumfgolemEntity extends WafflesModElements.ModElement {
 				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(0);
 			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) == null)
 				this.getAttributes().registerAttribute(SharedMonsterAttributes.ATTACK_DAMAGE);
-			this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(30);
+			this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(25);
 			if (this.getAttribute(SharedMonsterAttributes.KNOCKBACK_RESISTANCE) == null)
 				this.getAttributes().registerAttribute(SharedMonsterAttributes.KNOCKBACK_RESISTANCE);
 			this.getAttribute(SharedMonsterAttributes.KNOCKBACK_RESISTANCE).setBaseValue(20D);

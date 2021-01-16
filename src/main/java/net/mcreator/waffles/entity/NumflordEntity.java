@@ -51,6 +51,7 @@ import net.minecraft.block.BlockState;
 import net.mcreator.waffles.procedures.NumflordPlayerCollidesWithThisEntityProcedure;
 import net.mcreator.waffles.procedures.NumflordOnInitialEntitySpawnProcedure;
 import net.mcreator.waffles.procedures.NumflordEntityFallsProcedure;
+import net.mcreator.waffles.procedures.NumflordEntityDiesProcedure;
 import net.mcreator.waffles.item.NumfheartItem;
 import net.mcreator.waffles.WafflesModElements;
 
@@ -112,8 +113,8 @@ public class NumflordEntity extends WafflesModElements.ModElement {
 		protected void registerGoals() {
 			super.registerGoals();
 			this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, PlayerEntity.class, false, true));
-			this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 2, true));
-			this.goalSelector.addGoal(3, new LeapAtTargetGoal(this, (float) 2));
+			this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 1, true));
+			this.goalSelector.addGoal(3, new LeapAtTargetGoal(this, (float) 1.5));
 			this.targetSelector.addGoal(4, new HurtByTargetGoal(this));
 			this.goalSelector.addGoal(5, new LookRandomlyGoal(this));
 		}
@@ -184,6 +185,21 @@ public class NumflordEntity extends WafflesModElements.ModElement {
 		}
 
 		@Override
+		public void onDeath(DamageSource source) {
+			super.onDeath(source);
+			double x = this.getPosX();
+			double y = this.getPosY();
+			double z = this.getPosZ();
+			Entity sourceentity = source.getTrueSource();
+			Entity entity = this;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				NumflordEntityDiesProcedure.executeProcedure($_dependencies);
+			}
+		}
+
+		@Override
 		public ILivingEntityData onInitialSpawn(IWorld world, DifficultyInstance difficulty, SpawnReason reason, ILivingEntityData livingdata,
 				CompoundNBT tag) {
 			ILivingEntityData retval = super.onInitialSpawn(world, difficulty, reason, livingdata, tag);
@@ -220,10 +236,10 @@ public class NumflordEntity extends WafflesModElements.ModElement {
 			if (this.getAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
 				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(800);
 			if (this.getAttribute(SharedMonsterAttributes.ARMOR) != null)
-				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(60);
+				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(4.5);
 			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) == null)
 				this.getAttributes().registerAttribute(SharedMonsterAttributes.ATTACK_DAMAGE);
-			this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(35);
+			this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(20);
 			if (this.getAttribute(SharedMonsterAttributes.KNOCKBACK_RESISTANCE) == null)
 				this.getAttributes().registerAttribute(SharedMonsterAttributes.KNOCKBACK_RESISTANCE);
 			this.getAttribute(SharedMonsterAttributes.KNOCKBACK_RESISTANCE).setBaseValue(1000D);
