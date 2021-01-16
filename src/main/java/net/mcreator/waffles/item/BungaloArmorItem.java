@@ -50,7 +50,7 @@ public class BungaloArmorItem extends WafflesModElements.ModElement {
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{4, 8, 7, 4}[slot.getIndex()];
+				return new int[]{4, 7, 8, 4}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
