@@ -1205,6 +1205,52 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "numftys"
+    },
+    {
+      "name": "NumflordEntityFalls",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numflord_entity_falls",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NumflordPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numflord_player_collides_with_this_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NumflordOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numflord_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
@@ -1212,13 +1258,13 @@
   "language_map": {
     "en_us": {
       "biome.waffles.bobo": "Bobo",
-      "item.waffles.bungalo_land": "Bungalo Land Portal Igniter",
       "item.waffles.bungalo_armor_leggings": "Bungalo Leggings",
+      "item.waffles.bungalo_land": "Bungalo Land Portal Igniter",
       "block.waffles.numfstone": "Numfstone",
       "item.waffles.numfitetools_axe": "Numfitetools Axe",
       "item.waffles.numfheart": "Numfheart",
-      "item.waffles.numf_crystal_spawn_egg": "Numf Crystal Spawn Egg",
       "item.waffles.numfitearmors_armor_boots": "Numfitearmors Boots",
+      "item.waffles.numf_crystal_spawn_egg": "Numf Crystal Spawn Egg",
       "item.waffles.bungalo_axe": "Bungalo Axe",
       "block.waffles.bungalo_stairs": "Bungalo Stairs",
       "fluid.bungalo_juice": "BungaloJuice",
