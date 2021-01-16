@@ -1,0 +1,22 @@
+{
+  "group": "waffles",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "waffles:numfitearmors_armor_helmet"
+    },
+    {
+      "item": "waffles:numfitearmors_armor_leggings"
+    },
+    {
+      "item": "waffles:numfitearmors_armor_chestplate"
+    },
+    {
+      "item": "waffles:numfitearmors_armor_boots"
+    }
+  ],
+  "result": {
+    "item": "waffles:bagfeet",
+    "count": 1
+  }
+}
