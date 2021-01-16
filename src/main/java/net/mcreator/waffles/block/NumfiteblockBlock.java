@@ -1,17 +1,40 @@
 
 package net.mcreator.waffles.block;
 
+import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.storage.loot.LootContext;
+import net.minecraft.world.World;
+import net.minecraft.world.IWorldReader;
+import net.minecraft.world.IBlockReader;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.particles.ParticleTypes;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.BlockItem;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.Minecraft;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Block;
+
+import net.mcreator.waffles.WafflesModElements;
+
+import java.util.Random;
+import java.util.List;
+import java.util.Collections;
 
 @WafflesModElements.ModElement.Tag
 public class NumfiteblockBlock extends WafflesModElements.ModElement {
-
 	@ObjectHolder("waffles:numfiteblock")
 	public static final Block block = null;
-
 	public NumfiteblockBlock(WafflesModElements instance) {
 		super(instance, 67);
-
 	}
 
 	@Override
@@ -20,15 +43,10 @@ public class NumfiteblockBlock extends WafflesModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
 	}
-
 	public static class CustomBlock extends Block {
-
 		public CustomBlock() {
-			super(
-
-					Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(1000f, 10000f).lightValue(0).harvestLevel(3)
-							.harvestTool(ToolType.PICKAXE));
-
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(1000f, 10000f).lightValue(0).harvestLevel(3)
+					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("numfiteblock");
 		}
 
@@ -44,7 +62,6 @@ public class NumfiteblockBlock extends WafflesModElements.ModElement {
 
 		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
@@ -71,7 +88,5 @@ public class NumfiteblockBlock extends WafflesModElements.ModElement {
 					world.addParticle(ParticleTypes.EFFECT, d0, d1, d2, d3, d4, d5);
 				}
 		}
-
 	}
-
 }

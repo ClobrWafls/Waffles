@@ -1,12 +1,21 @@
 
 package net.mcreator.waffles.enchantment;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.util.DamageSource;
+import net.minecraft.item.ItemStack;
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.enchantment.EnchantmentType;
+import net.minecraft.enchantment.Enchantment;
+
+import net.mcreator.waffles.item.BungaloArmorItem;
+import net.mcreator.waffles.WafflesModElements;
+
 @WafflesModElements.ModElement.Tag
 public class BillyEnchantment extends WafflesModElements.ModElement {
-
 	@ObjectHolder("waffles:billy")
 	public static final Enchantment enchantment = null;
-
 	public BillyEnchantment(WafflesModElements instance) {
 		super(instance, 59);
 	}
@@ -15,9 +24,7 @@ public class BillyEnchantment extends WafflesModElements.ModElement {
 	public void initElements() {
 		elements.enchantments.add(() -> new CustomEnchantment(EquipmentSlotType.MAINHAND).setRegistryName("billy"));
 	}
-
 	public static class CustomEnchantment extends Enchantment {
-
 		public CustomEnchantment(EquipmentSlotType... slots) {
 			super(Enchantment.Rarity.UNCOMMON, EnchantmentType.ARMOR, slots);
 		}
@@ -64,7 +71,5 @@ public class BillyEnchantment extends WafflesModElements.ModElement {
 		public boolean isAllowedOnBooks() {
 			return true;
 		}
-
 	}
-
 }

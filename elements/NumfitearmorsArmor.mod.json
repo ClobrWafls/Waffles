@@ -10,6 +10,18 @@
     "textureLeggings": "numfitearmors_leggings",
     "enableBoots": true,
     "textureBoots": "numfitearmors_boots",
+    "onHelmetTick": {
+      "name": "NumfitearmorsArmorHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "NumfitearmorsArmorBodyTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "NumfitearmorsArmorLeggingsTickEvent"
+    },
+    "onBootsTick": {
+      "name": "NumfitearmorsArmorBootsTickEvent"
+    },
     "creativeTab": {
       "value": "COMBAT"
     },
@@ -39,10 +51,10 @@
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
     "maxDamage": 60,
-    "damageValueHelmet": 8,
-    "damageValueBody": 20,
-    "damageValueLeggings": 24,
-    "damageValueBoots": 8,
+    "damageValueHelmet": 7,
+    "damageValueBody": 9,
+    "damageValueLeggings": 8,
+    "damageValueBoots": 6,
     "enchantability": 36,
     "toughness": 0.0,
     "equipSound": {
