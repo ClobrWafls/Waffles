@@ -1374,6 +1374,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "moonpearl"
+    },
+    {
+      "name": "Moonpearl1",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moonpearl_1"
     }
   ],
   "variable_elements": [],
