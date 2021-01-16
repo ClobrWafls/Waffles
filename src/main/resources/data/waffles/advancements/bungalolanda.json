@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "waffles:bungalo"
+    },
+    "title": {
+      "translate": "advancements.bungalolanda.title"
+    },
+    "description": {
+      "translate": "advancements.bungalolanda.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bungalolanda": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "waffles:bungalo_land"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "waffles:best_wood"
+}
