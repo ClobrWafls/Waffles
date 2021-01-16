@@ -1210,7 +1210,7 @@
       "name": "NumflordOnInitialEntitySpawn",
       "type": "procedure",
       "sortid": 94,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "numflord_on_initial_entity_spawn",
@@ -1222,7 +1222,7 @@
       "name": "NumflordEntityFalls",
       "type": "procedure",
       "sortid": 92,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "numflord_entity_falls",
@@ -1239,7 +1239,7 @@
       "name": "NumflordPlayerCollidesWithThisEntity",
       "type": "procedure",
       "sortid": 93,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "numflord_player_collides_with_this_entity",
@@ -1283,7 +1283,7 @@
       "name": "NumflordEntityDies",
       "type": "procedure",
       "sortid": 95,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "numflord_entity_dies",
@@ -1339,22 +1339,49 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "lol"
+    },
+    {
+      "name": "MoonpearlRightClickedInAir",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moonpearl_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Moonpearl",
+      "type": "item",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moonpearl"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "biome.waffles.bobo": "Bobo",
       "advancements.numflordd.title": "MLG pro",
-      "item.waffles.bungalo_armor_leggings": "Bungalo Leggings",
+      "biome.waffles.bobo": "Bobo",
       "item.waffles.bungalo_land": "Bungalo Land Portal Igniter",
+      "item.waffles.bungalo_armor_leggings": "Bungalo Leggings",
       "block.waffles.numfstone": "Numfstone",
       "item.waffles.numfitetools_axe": "Numfitetools Axe",
       "item.waffles.numfheart": "Numfheart",
-      "item.waffles.numfitearmors_armor_boots": "Numfitearmors Boots",
       "item.waffles.numf_crystal_spawn_egg": "Numf Crystal Spawn Egg",
+      "item.waffles.numfitearmors_armor_boots": "Numfitearmors Boots",
       "item.waffles.bungalo_axe": "Bungalo Axe",
+      "item.waffles.moonpearl": "Moonpearl",
       "block.waffles.bungalo_stairs": "Bungalo Stairs",
       "fluid.bungalo_juice": "BungaloJuice",
       "item.waffles.numfite": "Numfite",
