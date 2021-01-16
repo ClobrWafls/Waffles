@@ -31,9 +31,9 @@ public class SallyRightClickedInAirProcedure extends WafflesModElements.ModEleme
 		IWorld world = (IWorld) dependencies.get("world");
 		if (world instanceof World && !world.getWorld().isRemote && entity instanceof LivingEntity) {
 			ArrowEntity entityToSpawn = new ArrowEntity(world.getWorld(), (LivingEntity) entity);
-			entityToSpawn.shoot(entity.getLookVec().x, entity.getLookVec().y, entity.getLookVec().z, (float) 1, 0);
+			entityToSpawn.shoot(entity.getLookVec().x, entity.getLookVec().y, entity.getLookVec().z, (float) 3, 0);
 			entityToSpawn.setDamage((float) 2);
-			entityToSpawn.setKnockbackStrength((int) 3);
+			entityToSpawn.setKnockbackStrength((int) 0);
 			world.addEntity(entityToSpawn);
 		}
 	}
