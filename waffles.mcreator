@@ -719,6 +719,104 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "moo"
+    },
+    {
+      "name": "Something",
+      "type": "structure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "something"
+    },
+    {
+      "name": "Numfpice",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numfpice"
+    },
+    {
+      "name": "Numfstone",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numfstone"
+    },
+    {
+      "name": "Numfstair",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numfstair"
+    },
+    {
+      "name": "Numfslab",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numfslab"
+    },
+    {
+      "name": "NurmfStoneEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nurmf_stone_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NurmfStone",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nurmf_stone"
+    },
+    {
+      "name": "NumfCrystal",
+      "type": "mob",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numf_crystal"
+    },
+    {
+      "name": "TempleofNumf",
+      "type": "structure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "templeof_numf"
+    },
+    {
+      "name": "Numfgolem",
+      "type": "mob",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numfgolem"
     }
   ],
   "variable_elements": [],
@@ -726,17 +824,21 @@
   "language_map": {
     "en_us": {
       "biome.waffles.bobo": "Bobo",
-      "item.waffles.bungalo_land": "Bungalo Land Portal Igniter",
       "item.waffles.bungalo_armor_leggings": "Bungalo Leggings",
+      "item.waffles.bungalo_land": "Bungalo Land Portal Igniter",
+      "block.waffles.numfstone": "Numfstone",
       "advancements.best_wood.title": "Best Wood",
       "block.waffles.bungalo_wood": "Bungalo Wood",
       "fluid.superbungalojuice": "Superbungalojuice",
       "entity.waffles.bungaboo": "Bungaboo",
+      "item.waffles.numf_crystal_spawn_egg": "Numf Crystal Spawn Egg",
       "item.waffles.superbungalojuice_bucket": "Superbungalojuice Bucket",
+      "entity.waffles.numfgolem": "Numfgolem",
       "item.minecraft.splash_potion.effect.bungalomagik": "Splash Bungalomagik",
       "block.waffles.bungalo": "Bungalo",
       "item.waffles.bungalo_armor_chestplate": "Bungalo Chestplate",
       "block.waffles.bungalo_stairs": "Bungalo Stairs",
+      "block.waffles.nurmf_stone": "Nurmf Stone",
       "item.waffles.bungalo_armor_boots": "Bungalo Boots",
       "item.waffles.bungofruit": "Bungofruit",
       "item.waffles.bungalo_juice_bucket": "BungaloJuice Bucket",
@@ -745,12 +847,17 @@
       "item.waffles.bungalo_armor_helmet": "Bungalo Helmet",
       "block.waffles.bungalo_planks": "Bungalo Planks",
       "block.waffles.bungalo_fence_gate": "Bungalo Fence Gate",
+      "item.waffles.numfpice": "Numfpice",
       "block.waffles.bungalo_fence": "Bungalo Fence",
       "block.waffles.bungalo_leaves": "Bungalo Leaves",
+      "block.waffles.numfslab": "Numfslab",
       "item.minecraft.tipped_arrow.effect.bungalomagik": "Arrow of Bungalomagik",
+      "block.waffles.numfstair": "Numfstair",
       "advancements.best_wood.descr": "You have collected Bungalo \"Wood\"",
       "item.waffles.sally": "Sally",
       "block.waffles.bungalo_log": "Bungalo Log",
+      "item.waffles.numfgolem_spawn_egg": "Numfgolem Spawn Egg",
+      "entity.waffles.numf_crystal": "Numf Crystal",
       "entity.waffles.bungomon": "Bungalomon",
       "item.waffles.cookedbungofruit": "Cookedbungofruit",
       "item.waffles.bungomon_spawn_egg": "Bungalomon Spawn Egg",

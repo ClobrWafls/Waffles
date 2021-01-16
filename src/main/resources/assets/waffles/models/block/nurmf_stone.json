@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "waffles:blocks/nurmfstone",
+    "up": "waffles:blocks/nurmfstone",
+    "north": "waffles:blocks/nurmfstone",
+    "east": "waffles:blocks/nurmfstone",
+    "south": "waffles:blocks/nurmfstone",
+    "west": "waffles:blocks/nurmfstone",
+    "particle": "waffles:blocks/nurmfstone"
+  }
+}

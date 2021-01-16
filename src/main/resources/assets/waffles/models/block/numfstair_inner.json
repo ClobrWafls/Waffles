@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "waffles:blocks/numfstone",
+    "top": "waffles:blocks/numfstone",
+    "side": "waffles:blocks/numfstone"
+  }
+}
