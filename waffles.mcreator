@@ -1254,7 +1254,7 @@
       "name": "NumflordOnInitialEntitySpawn",
       "type": "procedure",
       "sortid": 94,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "numflord_on_initial_entity_spawn",
@@ -1266,7 +1266,7 @@
       "name": "NumflordEntityFalls",
       "type": "procedure",
       "sortid": 92,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "numflord_entity_falls",
@@ -1283,10 +1283,45 @@
       "name": "NumflordPlayerCollidesWithThisEntity",
       "type": "procedure",
       "sortid": 93,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "numflord_player_collides_with_this_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bungalolanda",
+      "type": "achievement",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bungalolanda"
+    },
+    {
+      "name": "Bagfeet",
+      "type": "item",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bagfeet"
+    },
+    {
+      "name": "BagfeetRightClickedInAir",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bagfeet_right_clicked_in_air",
       "metadata": {
         "dependencies": [
           {
@@ -1305,12 +1340,14 @@
       "biome.waffles.bobo": "Bobo",
       "item.waffles.bungalo_armor_leggings": "Bungalo Leggings",
       "item.waffles.bungalo_land": "Bungalo Land Portal Igniter",
+      "advancements.bungalolanda.descr": "You made it to bungalo land!",
       "block.waffles.numfstone": "Numfstone",
       "item.waffles.numfitetools_axe": "Numfitetools Axe",
       "item.waffles.numfheart": "Numfheart",
       "item.waffles.numfitearmors_armor_boots": "Numfitearmors Boots",
       "item.waffles.numf_crystal_spawn_egg": "Numf Crystal Spawn Egg",
       "item.waffles.bungalo_axe": "Bungalo Axe",
+      "advancements.bungalolanda.title": "Woosh",
       "block.waffles.bungalo_stairs": "Bungalo Stairs",
       "fluid.bungalo_juice": "BungaloJuice",
       "item.waffles.numfite": "Numfite",
@@ -1353,6 +1390,7 @@
       "item.waffles.numfty_shard": "Numfty Shard",
       "item.waffles.numfitetools_pickaxe": "Numfitetools Pickaxe",
       "block.waffles.bungalo_leaves": "Bungalo Leaves",
+      "item.waffles.bagfeet": "Bagfeet",
       "advancements.congrats.descr": "You got a numfite core!",
       "block.waffles.numfslab": "Numfslab",
       "item.minecraft.tipped_arrow.effect.bungalomagik": "Arrow of Bungalomagik",
