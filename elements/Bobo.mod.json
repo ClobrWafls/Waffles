@@ -4,10 +4,10 @@
   "definition": {
     "name": "Bobo",
     "groundBlock": {
-      "value": "Blocks.GRASS"
+      "value": "Blocks.CAKE"
     },
     "undergroundBlock": {
-      "value": "Blocks.CAKE"
+      "value": "Blocks.GRASS"
     },
     "treeType": 1,
     "vanillaTreeType": "Mega spruce trees",
