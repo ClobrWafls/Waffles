@@ -1249,6 +1249,52 @@
           }
         ]
       }
+    },
+    {
+      "name": "NumflordOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numflord_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "NumflordEntityFalls",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numflord_entity_falls",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NumflordPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numflord_player_collides_with_this_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
