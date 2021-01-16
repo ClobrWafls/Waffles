@@ -1187,6 +1187,24 @@
           }
         ]
       }
+    },
+    {
+      "name": "NumftyShard",
+      "type": "item",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numfty_shard"
+    },
+    {
+      "name": "Numftys",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numftys"
     }
   ],
   "variable_elements": [],
@@ -1237,6 +1255,7 @@
       "item.waffles.bungalo_juice_bucket": "BungaloJuice Bucket",
       "item.waffles.bungaboo_spawn_egg": "Bungaboo Spawn Egg",
       "item.waffles.bungalo_armor_helmet": "Bungalo Helmet",
+      "item.waffles.numfty_shard": "Numfty Shard",
       "item.waffles.numfitetools_pickaxe": "Numfitetools Pickaxe",
       "block.waffles.bungalo_leaves": "Bungalo Leaves",
       "block.waffles.numfslab": "Numfslab",

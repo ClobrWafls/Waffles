@@ -1,0 +1,25 @@
+{
+  "group": "waffles",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "waffles:numfty_shard"
+    },
+    {
+      "item": "waffles:numfty_shard"
+    },
+    {
+      "item": "waffles:numfty_shard"
+    },
+    {
+      "item": "waffles:numfty_shard"
+    },
+    {
+      "item": "waffles:numfty_shard"
+    }
+  ],
+  "result": {
+    "item": "waffles:numfty",
+    "count": 1
+  }
+}
