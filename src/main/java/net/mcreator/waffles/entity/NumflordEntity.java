@@ -65,8 +65,7 @@ public class NumflordEntity extends WafflesModElements.ModElement {
 				.setTrackingRange(300).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.6f, 1.8f))
 						.build("numflord").setRegistryName("numflord");
 		elements.entities.add(() -> entity);
-		elements.items.add(
-				() -> new SpawnEggItem(entity, -6750208, -256, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("numflord_spawn_egg"));
+		elements.items.add(() -> new SpawnEggItem(entity, -1, -1, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("numflord_spawn_egg"));
 	}
 
 	@SubscribeEvent
