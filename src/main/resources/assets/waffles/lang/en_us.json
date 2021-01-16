@@ -19,6 +19,7 @@
   "item.waffles.rawnumfite": "Rawnumfite",
   "block.waffles.bungalo_log": "Bungalo Log",
   "item.waffles.numfgolem_spawn_egg": "Numfgolem Spawn Egg",
+  "entity.waffles.numflord": "Numflord",
   "item.waffles.cookedbungofruit": "Cookedbungofruit",
   "item.waffles.numfcore": "Numfcore",
   "item.waffles.numfitetools_hoe": "Numfitetools Hoe",
@@ -59,5 +60,6 @@
   "item.waffles.bungomon_spawn_egg": "Bungalomon Spawn Egg",
   "item.minecraft.lingering_potion.effect.bungalomagik": "Lingering Bungalomagik",
   "block.waffles.bungalo_slab": "Bungalo Slab",
-  "item.minecraft.potion.effect.bungalomagik": "Bungalomagik"
+  "item.minecraft.potion.effect.bungalomagik": "Bungalomagik",
+  "item.waffles.numflord_spawn_egg": "Numflord Spawn Egg"
 }
