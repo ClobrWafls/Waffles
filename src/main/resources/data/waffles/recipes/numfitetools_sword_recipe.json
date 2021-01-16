@@ -1,0 +1,42 @@
+{
+  "group": "waffles",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waffles:bungalo_sword"
+    },
+    "1": {
+      "item": "waffles:numfite"
+    },
+    "2": {
+      "item": "waffles:bungalo_sword"
+    },
+    "3": {
+      "item": "waffles:numfite"
+    },
+    "4": {
+      "item": "waffles:numfcore"
+    },
+    "5": {
+      "item": "waffles:numfite"
+    },
+    "6": {
+      "item": "waffles:bungalo_sword"
+    },
+    "7": {
+      "item": "waffles:numfite"
+    },
+    "8": {
+      "item": "waffles:bungalo_sword"
+    }
+  },
+  "result": {
+    "item": "waffles:numfitetools_sword",
+    "count": 1
+  }
+}

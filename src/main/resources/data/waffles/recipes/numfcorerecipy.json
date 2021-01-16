@@ -1,0 +1,42 @@
+{
+  "group": "waffles",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waffles:numfite"
+    },
+    "1": {
+      "item": "waffles:rawnumfite"
+    },
+    "2": {
+      "item": "waffles:numfite"
+    },
+    "3": {
+      "item": "waffles:rawnumfite"
+    },
+    "4": {
+      "item": "waffles:numfheart"
+    },
+    "5": {
+      "item": "waffles:rawnumfite"
+    },
+    "6": {
+      "item": "waffles:numfite"
+    },
+    "7": {
+      "item": "waffles:rawnumfite"
+    },
+    "8": {
+      "item": "waffles:numfite"
+    }
+  },
+  "result": {
+    "item": "waffles:numfcore",
+    "count": 1
+  }
+}

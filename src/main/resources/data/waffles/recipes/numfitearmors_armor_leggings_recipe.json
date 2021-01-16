@@ -1,0 +1,42 @@
+{
+  "group": "waffles",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waffles:numfite"
+    },
+    "1": {
+      "item": "waffles:bungalo_armor_leggings"
+    },
+    "2": {
+      "item": "waffles:numfite"
+    },
+    "3": {
+      "item": "waffles:numfite"
+    },
+    "4": {
+      "item": "waffles:numfcore"
+    },
+    "5": {
+      "item": "waffles:numfite"
+    },
+    "6": {
+      "item": "waffles:numfite"
+    },
+    "7": {
+      "item": "waffles:bungalo_armor_leggings"
+    },
+    "8": {
+      "item": "waffles:numfite"
+    }
+  },
+  "result": {
+    "item": "waffles:numfitearmors_armor_leggings",
+    "count": 1
+  }
+}

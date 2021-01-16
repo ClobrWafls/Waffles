@@ -1,0 +1,42 @@
+{
+  "group": "waffles",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waffles:numfpice"
+    },
+    "1": {
+      "item": "waffles:bungalo_ingut"
+    },
+    "2": {
+      "item": "waffles:numfpice"
+    },
+    "3": {
+      "item": "waffles:bungalo_ingut"
+    },
+    "4": {
+      "item": "waffles:cookedbungofruit"
+    },
+    "5": {
+      "item": "waffles:bungalo_ingut"
+    },
+    "6": {
+      "item": "waffles:numfpice"
+    },
+    "7": {
+      "item": "waffles:bungalo_ingut"
+    },
+    "8": {
+      "item": "waffles:numfpice"
+    }
+  },
+  "result": {
+    "item": "waffles:rawnumfite",
+    "count": 1
+  }
+}

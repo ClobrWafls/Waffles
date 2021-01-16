@@ -1,0 +1,9 @@
+{
+  "group": "waffles",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "waffles:numfstone"
+  },
+  "result": "waffles:numfslab"
+}

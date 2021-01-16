@@ -1,0 +1,26 @@
+{
+  "group": "waffles",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "waffles:numfpice"
+    },
+    "1": {
+      "item": "waffles:numfpice"
+    },
+    "2": {
+      "item": "waffles:numfpice"
+    },
+    "3": {
+      "item": "waffles:numfpice"
+    }
+  },
+  "result": {
+    "item": "waffles:numfstone",
+    "count": 1
+  }
+}

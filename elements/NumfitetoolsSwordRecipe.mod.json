@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BungaloSword"
+      },
+      {
+        "value": "CUSTOM:Numfite"
+      },
+      {
+        "value": "CUSTOM:BungaloSword"
+      },
+      {
+        "value": "CUSTOM:Numfite"
+      },
+      {
+        "value": "CUSTOM:Numfcore"
+      },
+      {
+        "value": "CUSTOM:Numfite"
+      },
+      {
+        "value": "CUSTOM:BungaloSword"
+      },
+      {
+        "value": "CUSTOM:Numfite"
+      },
+      {
+        "value": "CUSTOM:BungaloSword"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NumfitetoolsSword"
+    },
+    "name": "numfitetools_sword_recipe",
+    "namespace": "mod"
+  }
+}
