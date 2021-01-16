@@ -835,6 +835,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "billy"
+    },
+    {
+      "name": "Moogles",
+      "type": "function",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moogles"
     }
   ],
   "variable_elements": [],
