@@ -1,0 +1,42 @@
+{
+  "group": "waffles",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waffles:moondust"
+    },
+    "1": {
+      "item": "waffles:moondust"
+    },
+    "2": {
+      "item": "waffles:moondust"
+    },
+    "3": {
+      "item": "waffles:moondust"
+    },
+    "4": {
+      "item": "minecraft:diamond"
+    },
+    "5": {
+      "item": "waffles:moondust"
+    },
+    "6": {
+      "item": "waffles:moondust"
+    },
+    "7": {
+      "item": "waffles:moondust"
+    },
+    "8": {
+      "item": "waffles:moondust"
+    }
+  },
+  "result": {
+    "item": "waffles:moonpearl",
+    "count": 1
+  }
+}
