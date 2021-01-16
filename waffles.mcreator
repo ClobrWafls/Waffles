@@ -1086,38 +1086,13 @@
       "registry_name": "bungalo_tree"
     },
     {
-      "name": "NumfitearmorsArmorHelmetTickEvent",
-      "type": "procedure",
+      "name": "Numflord",
+      "type": "mob",
       "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "numfitearmors_armor_helmet_tick_event",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "NumfitearmorsArmorBodyTickEvent",
-      "type": "procedure",
-      "sortid": 86,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "numfitearmors_armor_body_tick_event",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
+      "registry_name": "numflord"
     },
     {
       "name": "NumfitearmorsArmorLeggingsTickEvent",
@@ -1137,6 +1112,23 @@
       }
     },
     {
+      "name": "NumfitearmorsArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numfitearmors_armor_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
       "name": "NumfitearmorsArmorBootsTickEvent",
       "type": "procedure",
       "sortid": 88,
@@ -1144,6 +1136,23 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "numfitearmors_armor_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NumfitearmorsArmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "numfitearmors_armor_body_tick_event",
       "metadata": {
         "dependencies": [
           {
